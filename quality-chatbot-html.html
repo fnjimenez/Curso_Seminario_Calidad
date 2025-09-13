@@ -1,0 +1,1031 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatbot de Evaluación - Seminario de Calidad</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background: linear-gradient(135deg, #f0f9ff 0%, #e0e7ff 100%);
+            min-height: 100vh;
+            padding: 1.5rem;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        .card {
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+            padding: 2rem;
+        }
+
+        .text-center { text-align: center; }
+        .mb-4 { margin-bottom: 1rem; }
+        .mb-6 { margin-bottom: 1.5rem; }
+        .mb-8 { margin-bottom: 2rem; }
+        .mt-4 { margin-top: 1rem; }
+        .mt-8 { margin-top: 2rem; }
+
+        .title {
+            font-size: 2rem;
+            font-weight: bold;
+            color: #1f2937;
+            margin-bottom: 1rem;
+        }
+
+        .subtitle {
+            font-size: 1.25rem;
+            color: #6b7280;
+            margin-bottom: 1.5rem;
+        }
+
+        .icon {
+            width: 64px;
+            height: 64px;
+            background: #4f46e5;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 1rem;
+            color: white;
+            font-size: 2rem;
+        }
+
+        .input-group {
+            max-width: 400px;
+            margin: 0 auto;
+        }
+
+        .input-label {
+            display: block;
+            font-weight: 600;
+            color: #374151;
+            margin-bottom: 0.5rem;
+            text-align: left;
+        }
+
+        .input-field {
+            width: 100%;
+            padding: 0.75rem;
+            border: 1px solid #d1d5db;
+            border-radius: 8px;
+            font-size: 1rem;
+            transition: all 0.2s;
+        }
+
+        .input-field:focus {
+            outline: none;
+            border-color: #4f46e5;
+            box-shadow: 0 0 0 3px rgba(79, 70, 229, 0.1);
+        }
+
+        .btn-primary {
+            background: #4f46e5;
+            color: white;
+            padding: 0.75rem 1.5rem;
+            border: none;
+            border-radius: 8px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.2s;
+            font-size: 1rem;
+        }
+
+        .btn-primary:hover:not(:disabled) {
+            background: #4338ca;
+        }
+
+        .btn-primary:disabled {
+            background: #9ca3af;
+            cursor: not-allowed;
+        }
+
+        .modules-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 1rem;
+        }
+
+        .module-card {
+            background: white;
+            border: 2px solid #e5e7eb;
+            border-radius: 8px;
+            padding: 1.5rem;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .module-card:hover {
+            box-shadow: 0 10px 25px -3px rgba(0, 0, 0, 0.1);
+            border-color: #a5b4fc;
+        }
+
+        .module-card.disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+
+        .module-icon {
+            width: 48px;
+            height: 48px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .module-title {
+            font-weight: bold;
+            color: #1f2937;
+            margin-bottom: 0.5rem;
+        }
+
+        .module-info {
+            font-size: 0.875rem;
+            color: #6b7280;
+        }
+
+        .progress-bar {
+            width: 100%;
+            height: 8px;
+            background: #e5e7eb;
+            border-radius: 4px;
+            overflow: hidden;
+            margin-bottom: 1.5rem;
+        }
+
+        .progress-fill {
+            height: 100%;
+            background: #4f46e5;
+            transition: width 0.3s ease;
+        }
+
+        .question-title {
+            font-size: 1.25rem;
+            font-weight: 600;
+            color: #1f2937;
+            margin-bottom: 1.5rem;
+        }
+
+        .options-list {
+            display: flex;
+            flex-direction: column;
+            gap: 0.75rem;
+        }
+
+        .option-button {
+            width: 100%;
+            text-align: left;
+            padding: 1rem;
+            border: 1px solid #d1d5db;
+            border-radius: 8px;
+            background: white;
+            cursor: pointer;
+            transition: all 0.2s;
+            display: flex;
+            align-items: center;
+        }
+
+        .option-button:hover {
+            background: #f9fafb;
+            border-color: #a5b4fc;
+        }
+
+        .option-letter {
+            font-weight: 600;
+            color: #374151;
+            margin-right: 0.5rem;
+        }
+
+        .result-option {
+            padding: 1rem;
+            border: 1px solid;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            margin-bottom: 0.75rem;
+        }
+
+        .result-option.correct {
+            background: #f0fdf4;
+            border-color: #86efac;
+        }
+
+        .result-option.incorrect {
+            background: #fef2f2;
+            border-color: #fca5a5;
+        }
+
+        .result-option.neutral {
+            background: #f9fafb;
+            border-color: #d1d5db;
+        }
+
+        .result-icon {
+            margin-right: 0.75rem;
+            font-size: 1.25rem;
+        }
+
+        .explanation-box {
+            background: #eff6ff;
+            border: 1px solid #bfdbfe;
+            border-radius: 8px;
+            padding: 1rem;
+            margin-top: 1rem;
+        }
+
+        .explanation-title {
+            font-weight: 600;
+            color: #1e40af;
+            margin-bottom: 0.5rem;
+        }
+
+        .explanation-text {
+            color: #1e40af;
+        }
+
+        .score-display {
+            font-size: 3.5rem;
+            font-weight: bold;
+            color: #4f46e5;
+            margin-bottom: 0.5rem;
+        }
+
+        .score-level {
+            font-size: 1.25rem;
+            color: #6b7280;
+            margin-bottom: 1rem;
+        }
+
+        .results-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+            margin-bottom: 2rem;
+        }
+
+        .result-module {
+            background: #f9fafb;
+            border-radius: 8px;
+            padding: 1rem;
+        }
+
+        .result-module-icon {
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 1rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .result-module-title {
+            font-weight: 600;
+            color: #1f2937;
+            margin-bottom: 0.25rem;
+            font-size: 0.875rem;
+        }
+
+        .result-module-score {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #4f46e5;
+        }
+
+        .result-module-details {
+            font-size: 0.875rem;
+            color: #6b7280;
+        }
+
+        .feedback-box {
+            background: linear-gradient(135deg, #f0f9ff 0%, #eff6ff 100%);
+            border-radius: 8px;
+            padding: 1.5rem;
+        }
+
+        .feedback-title {
+            font-size: 1.25rem;
+            font-weight: bold;
+            color: #1f2937;
+            margin-bottom: 1rem;
+        }
+
+        .recommendations-list {
+            list-style: none;
+        }
+
+        .recommendation-item {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 0.75rem;
+        }
+
+        .recommendation-number {
+            width: 24px;
+            height: 24px;
+            background: #ddd6fe;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #4f46e5;
+            font-weight: bold;
+            font-size: 0.875rem;
+            margin-right: 0.75rem;
+            margin-top: 0.125rem;
+            flex-shrink: 0;
+        }
+
+        .recommendation-text {
+            color: #374151;
+            line-height: 1.5;
+        }
+
+        .hidden { display: none; }
+
+        .w-full { width: 100%; }
+
+        .header-info {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 1.5rem;
+        }
+
+        .question-counter {
+            font-size: 0.875rem;
+            color: #6b7280;
+        }
+
+        .final-message {
+            color: #6b7280;
+            margin-bottom: 1rem;
+            line-height: 1.6;
+        }
+
+        /* Colores para módulos */
+        .bg-blue { background: #3b82f6; }
+        .bg-green { background: #10b981; }
+        .bg-purple { background: #8b5cf6; }
+        .bg-orange { background: #f97316; }
+        .bg-red { background: #ef4444; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Pantalla de Bienvenida -->
+        <div id="welcome-screen" class="card text-center">
+            <div class="icon">🎓</div>
+            <h1 class="title">Chatbot de Evaluación - Seminario de Calidad</h1>
+            <p class="subtitle">
+                ¡Bienvenido(a) al evaluador de conocimientos en Calidad! 
+                Este chatbot te ayudará a identificar tu nivel actual y las áreas a reforzar.
+            </p>
+            <div class="input-group">
+                <label class="input-label" for="student-name">
+                    Para comenzar, por favor ingresa tu nombre:
+                </label>
+                <input 
+                    type="text" 
+                    id="student-name" 
+                    class="input-field" 
+                    placeholder="Tu nombre completo..."
+                    onkeypress="handleEnterKey(event, startEvaluation)"
+                />
+                <button 
+                    onclick="startEvaluation()" 
+                    class="btn-primary w-full mt-4"
+                    id="start-btn"
+                    disabled
+                >
+                    Comenzar Evaluación 🚀
+                </button>
+            </div>
+        </div>
+
+        <!-- Pantalla de Módulos -->
+        <div id="modules-screen" class="card hidden">
+            <h2 id="greeting" class="title mb-4"></h2>
+            <p class="subtitle mb-6">
+                Como estudiante de 7mo cuatrimestre de Ingeniería Industrial, evaluaremos tus conocimientos 
+                en 5 módulos fundamentales. ¡Empecemos!
+            </p>
+            <div class="modules-grid" id="modules-grid">
+                <!-- Los módulos se generarán dinámicamente -->
+            </div>
+        </div>
+
+        <!-- Pantalla de Quiz -->
+        <div id="quiz-screen" class="card hidden">
+            <div class="header-info">
+                <h2 id="current-module-title" class="title" style="margin-bottom: 0;"></h2>
+                <span id="question-counter" class="question-counter"></span>
+            </div>
+            
+            <div class="progress-bar">
+                <div id="progress-fill" class="progress-fill" style="width: 0%;"></div>
+            </div>
+
+            <div class="mb-8">
+                <h3 id="question-text" class="question-title"></h3>
+                
+                <div id="options-container" class="options-list">
+                    <!-- Las opciones se generarán dinámicamente -->
+                </div>
+
+                <div id="result-container" class="hidden">
+                    <!-- Los resultados se mostrarán aquí -->
+                </div>
+
+                <button 
+                    id="next-btn" 
+                    onclick="nextQuestion()" 
+                    class="btn-primary w-full mt-4 hidden"
+                >
+                    Siguiente Pregunta →
+                </button>
+            </div>
+        </div>
+
+        <!-- Pantalla de Resultados -->
+        <div id="feedback-screen" class="card hidden">
+            <div class="text-center mb-8">
+                <div class="icon">🏆</div>
+                <h2 id="completion-message" class="title mb-4"></h2>
+                <div id="overall-score" class="score-display"></div>
+                <p id="score-level" class="score-level"></p>
+                <p id="score-details" class="question-counter"></p>
+            </div>
+
+            <div id="results-grid" class="results-grid">
+                <!-- Los resultados por módulo se generarán aquí -->
+            </div>
+
+            <div class="feedback-box">
+                <h3 class="feedback-title">📋 Retroalimentación y Recomendaciones:</h3>
+                <ul id="recommendations-list" class="recommendations-list">
+                    <!-- Las recomendaciones se generarán aquí -->
+                </ul>
+            </div>
+
+            <div class="mt-8 text-center">
+                <p class="final-message">
+                    ¡Continúa estudiando y mejorando! Como futuro Ingeniero Industrial, 
+                    el dominio de la calidad es fundamental para tu éxito profesional. 💪
+                </p>
+                <button onclick="restartEvaluation()" class="btn-primary">
+                    Reiniciar Evaluación 🔄
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Estado de la aplicación
+        let currentStep = 'welcome';
+        let studentName = '';
+        let currentModule = 0;
+        let currentQuestion = 0;
+        let answers = {};
+        let showResult = false;
+
+        // Definición de módulos
+        const modules = [
+            {
+                id: 'history',
+                title: 'Historia y Orígenes de la Calidad',
+                icon: '📚',
+                color: 'bg-blue'
+            },
+            {
+                id: 'precursors', 
+                title: 'Precursores de la Calidad',
+                icon: '👥',
+                color: 'bg-green'
+            },
+            {
+                id: 'methodologies',
+                title: 'Metodologías y Herramientas',
+                icon: '🎯',
+                color: 'bg-purple'
+            },
+            {
+                id: 'sixsigma',
+                title: 'Seis Sigma (Enfoque Principal)',
+                icon: '📈',
+                color: 'bg-orange'
+            },
+            {
+                id: 'advanced',
+                title: 'Planeación Avanzada de Calidad',
+                icon: '💡',
+                color: 'bg-red'
+            }
+        ];
+
+        // Base de preguntas
+        const questions = {
+            history: [
+                {
+                    question: "¿En qué época se considera que comenzó formalmente el control de calidad?",
+                    options: [
+                        "Era artesanal (antes de 1900)",
+                        "Era industrial (1900-1940)",
+                        "Era de control estadístico (1940-1960)",
+                        "Era de aseguramiento (1960-1980)"
+                    ],
+                    correct: 1,
+                    explanation: "El control de calidad formal comenzó en la era industrial con la producción masiva y la necesidad de estandarización."
+                },
+                {
+                    question: "¿Cuál fue la principal característica de la calidad en la época artesanal?",
+                    options: [
+                        "Control estadístico de procesos",
+                        "Inspección 100% al final",
+                        "El artesano controlaba todo el proceso",
+                        "Uso de herramientas de Seis Sigma"
+                    ],
+                    correct: 2,
+                    explanation: "En la época artesanal, el mismo artesano controlaba todo el proceso de producción, asegurando la calidad directamente."
+                }
+            ],
+            precursors: [
+                {
+                    question: "¿Quién es considerado el 'padre' del control estadístico de calidad?",
+                    options: [
+                        "W. Edwards Deming",
+                        "Walter Shewhart",
+                        "Joseph Juran",
+                        "Kaoru Ishikawa"
+                    ],
+                    correct: 1,
+                    explanation: "Walter Shewhart desarrolló las cartas de control y es considerado el padre del control estadístico de calidad."
+                },
+                {
+                    question: "¿Cuál de los siguientes NO es uno de los 14 puntos de Deming?",
+                    options: [
+                        "Crear constancia en el propósito",
+                        "Eliminar la inspección masiva",
+                        "Implementar Seis Sigma inmediatamente",
+                        "Eliminar el miedo"
+                    ],
+                    correct: 2,
+                    explanation: "Seis Sigma fue desarrollado mucho después de los 14 puntos de Deming. Sus puntos se enfocan en transformación gerencial."
+                },
+                {
+                    question: "Joseph Juran es famoso por desarrollar:",
+                    options: [
+                        "Las cartas de control",
+                        "La trilogía de Juran",
+                        "El diagrama de Ishikawa",
+                        "La metodología DMAIC"
+                    ],
+                    correct: 1,
+                    explanation: "Juran desarrolló la Trilogía de Juran: Planificación, Control y Mejora de la Calidad."
+                }
+            ],
+            methodologies: [
+                {
+                    question: "¿Qué representa el diagrama de Ishikawa?",
+                    options: [
+                        "Control estadístico de procesos",
+                        "Análisis de causa-efecto",
+                        "Planificación de calidad",
+                        "Medición de defectos"
+                    ],
+                    correct: 1,
+                    explanation: "El diagrama de Ishikawa (espina de pescado) es una herramienta para análisis de causa-efecto."
+                },
+                {
+                    question: "¿Cuál es el objetivo principal del Control Estadístico de Procesos (SPC)?",
+                    options: [
+                        "Reducir costos de producción",
+                        "Detectar variaciones especiales en el proceso",
+                        "Aumentar la velocidad de producción",
+                        "Eliminar completamente los defectos"
+                    ],
+                    correct: 1,
+                    explanation: "El SPC busca identificar y controlar las variaciones especiales que afectan la estabilidad del proceso."
+                }
+            ],
+            sixsigma: [
+                {
+                    question: "¿Qué significa 'Seis Sigma' en términos de defectos?",
+                    options: [
+                        "6 defectos por millón de oportunidades",
+                        "3.4 defectos por millón de oportunidades",
+                        "99.9% de perfección",
+                        "Zero defectos absolutos"
+                    ],
+                    correct: 1,
+                    explanation: "Seis Sigma equivale a 3.4 defectos por millón de oportunidades, considerando el desplazamiento de 1.5 sigma."
+                },
+                {
+                    question: "¿Qué significa DMAIC en la metodología Seis Sigma?",
+                    options: [
+                        "Define, Measure, Analyze, Improve, Control",
+                        "Design, Make, Analyze, Inspect, Complete",
+                        "Develop, Monitor, Assess, Implement, Check",
+                        "Data, Method, Analysis, Innovation, Compliance"
+                    ],
+                    correct: 0,
+                    explanation: "DMAIC es la metodología estructurada de Seis Sigma: Definir, Medir, Analizar, Mejorar y Controlar."
+                },
+                {
+                    question: "¿Cuál es la diferencia principal entre DMAIC y DMADV?",
+                    options: [
+                        "DMAIC es para procesos existentes, DMADV para nuevos productos/procesos",
+                        "DMAIC es más rápido que DMADV",
+                        "No hay diferencia significativa",
+                        "DMADV se usa solo en manufactura"
+                    ],
+                    correct: 0,
+                    explanation: "DMAIC mejora procesos existentes, mientras DMADV (Design for Six Sigma) diseña nuevos productos/procesos."
+                },
+                {
+                    question: "¿Qué es un 'Green Belt' en Seis Sigma?",
+                    options: [
+                        "Un tipo de certificación de calidad ISO",
+                        "Un nivel de entrenamiento en metodología Seis Sigma",
+                        "Una herramienta de medición",
+                        "Un software de análisis estadístico"
+                    ],
+                    correct: 1,
+                    explanation: "Green Belt es un nivel de certificación en Seis Sigma, entre Yellow Belt y Black Belt."
+                }
+            ],
+            advanced: [
+                {
+                    question: "¿Qué es APQP (Advanced Product Quality Planning)?",
+                    options: [
+                        "Una herramienta de control estadístico",
+                        "Un método de planificación de calidad de productos",
+                        "Un software de gestión de calidad",
+                        "Un tipo de auditoría de calidad"
+                    ],
+                    correct: 1,
+                    explanation: "APQP es un método estructurado para planificar el desarrollo de productos con enfoque en calidad."
+                },
+                {
+                    question: "¿En qué fase del APQP se desarrolla el FMEA (Análisis de Modo y Efecto de Fallas)?",
+                    options: [
+                        "Fase 1: Planificación",
+                        "Fase 2: Diseño y desarrollo del producto",
+                        "Fase 3: Diseño y desarrollo del proceso",
+                        "En las fases 2 y 3"
+                    ],
+                    correct: 3,
+                    explanation: "El FMEA se desarrolla tanto en el diseño del producto (Fase 2) como en el diseño del proceso (Fase 3)."
+                }
+            ]
+        };
+
+        // Funciones de eventos
+        function handleEnterKey(event, callback) {
+            if (event.key === 'Enter') {
+                callback();
+            }
+        }
+
+        // Habilitar/deshabilitar botón de inicio
+        document.getElementById('student-name').addEventListener('input', function(e) {
+            const startBtn = document.getElementById('start-btn');
+            startBtn.disabled = !e.target.value.trim();
+        });
+
+        function startEvaluation() {
+            studentName = document.getElementById('student-name').value.trim();
+            if (studentName) {
+                showModulesScreen();
+            }
+        }
+
+        function showModulesScreen() {
+            document.getElementById('welcome-screen').classList.add('hidden');
+            document.getElementById('greeting').textContent = `¡Hola ${studentName}! 👋`;
+            
+            const modulesGrid = document.getElementById('modules-grid');
+            modulesGrid.innerHTML = '';
+            
+            modules.forEach((module, index) => {
+                const moduleDiv = document.createElement('div');
+                moduleDiv.className = `module-card ${index > currentModule ? 'disabled' : ''}`;
+                moduleDiv.onclick = () => index === currentModule && startModule(index);
+                
+                moduleDiv.innerHTML = `
+                    <div class="module-icon ${module.color}">${module.icon}</div>
+                    <h3 class="module-title">${module.title}</h3>
+                    <p class="module-info">${questions[module.id].length} preguntas</p>
+                    ${index === currentModule ? '<button class="btn-primary w-full mt-4">Comenzar Módulo</button>' : ''}
+                `;
+                
+                modulesGrid.appendChild(moduleDiv);
+            });
+            
+            document.getElementById('modules-screen').classList.remove('hidden');
+        }
+
+        function startModule(moduleIndex) {
+            currentModule = moduleIndex;
+            currentQuestion = 0;
+            showResult = false;
+            showQuizScreen();
+        }
+
+        function showQuizScreen() {
+            document.getElementById('modules-screen').classList.add('hidden');
+            document.getElementById('quiz-screen').classList.remove('hidden');
+            loadCurrentQuestion();
+        }
+
+        function loadCurrentQuestion() {
+            const moduleId = modules[currentModule].id;
+            const questionData = questions[moduleId][currentQuestion];
+            const progress = ((currentQuestion + 1) / questions[moduleId].length) * 100;
+            
+            // Actualizar encabezados
+            document.getElementById('current-module-title').textContent = modules[currentModule].title;
+            document.getElementById('question-counter').textContent = 
+                `Pregunta ${currentQuestion + 1} de ${questions[moduleId].length}`;
+            document.getElementById('progress-fill').style.width = `${progress}%`;
+            document.getElementById('question-text').textContent = questionData.question;
+            
+            // Mostrar opciones si no hay resultado
+            if (!showResult) {
+                showOptions(questionData);
+            } else {
+                showQuestionResult(questionData);
+            }
+        }
+
+        function showOptions(questionData) {
+            const container = document.getElementById('options-container');
+            container.innerHTML = '';
+            container.classList.remove('hidden');
+            document.getElementById('result-container').classList.add('hidden');
+            document.getElementById('next-btn').classList.add('hidden');
+            
+            questionData.options.forEach((option, index) => {
+                const button = document.createElement('button');
+                button.className = 'option-button';
+                button.onclick = () => handleAnswer(index);
+                button.innerHTML = `
+                    <span class="option-letter">${String.fromCharCode(65 + index)}.</span>
+                    ${option}
+                `;
+                container.appendChild(button);
+            });
+        }
+
+        function handleAnswer(answerIndex) {
+            const moduleId = modules[currentModule].id;
+            const questionData = questions[moduleId][currentQuestion];
+            
+            answers[`${moduleId}_${currentQuestion}`] = {
+                answer: answerIndex,
+                correct: answerIndex === questionData.correct,
+                explanation: questionData.explanation
+            };
+            
+            showResult = true;
+            showQuestionResult(questionData);
+        }
+
+        function showQuestionResult(questionData) {
+            const moduleId = modules[currentModule].id;
+            const userAnswer = answers[`${moduleId}_${currentQuestion}`];
+            
+            document.getElementById('options-container').classList.add('hidden');
+            
+            const container = document.getElementById('result-container');
+            container.innerHTML = '';
+            container.classList.remove('hidden');
+            
+            // Mostrar opciones con resultados
+            questionData.options.forEach((option, index) => {
+                const div = document.createElement('div');
+                let className = 'result-option neutral';
+                let icon = '';
+                
+                if (index === questionData.correct) {
+                    className = 'result-option correct';
+                    icon = '✅';
+                } else if (userAnswer.answer === index) {
+                    className = 'result-option incorrect';
+                    icon = '❌';
+                }
+                
+                div.className = className;
+                div.innerHTML = `
+                    <span class="result-icon">${icon}</span>
+                    <span class="option-letter">${String.fromCharCode(65 + index)}.</span>
+                    ${option}
+                `;
+                
+                container.appendChild(div);
+            });
+            
+            // Mostrar explicación
+            const explanationDiv = document.createElement('div');
+            explanationDiv.className = 'explanation-box';
+            explanationDiv.innerHTML = `
+                <h4 class="explanation-title">💡 Explicación:</h4>
+                <p class="explanation-text">${questionData.explanation}</p>
+            `;
+            container.appendChild(explanationDiv);
+            
+            // Mostrar botón siguiente
+            const nextBtn = document.getElementById('next-btn');
+            nextBtn.classList.remove('hidden');
+            
+            const moduleQuestions = questions[moduleId];
+            if (currentQuestion < moduleQuestions.length - 1) {
+                nextBtn.textContent = 'Siguiente Pregunta →';
+            } else if (currentModule < modules.length - 1) {
+                nextBtn.textContent = 'Siguiente Módulo →';
+            } else {
+                nextBtn.textContent = 'Ver Resultados →';
+            }
+        }
+
+        function nextQuestion() {
+            const moduleId = modules[currentModule].id;
+            const moduleQuestions = questions[moduleId];
+            
+            if (currentQuestion < moduleQuestions.length - 1) {
+                currentQuestion++;
+                showResult = false;
+                loadCurrentQuestion();
+            } else if (currentModule < modules.length - 1) {
+                currentModule++;
+                currentQuestion = 0;
+                showResult = false;
+                showModulesScreen();
+            } else {
+                showFeedbackScreen();
+            }
+        }
+
+        function showFeedbackScreen() {
+            document.getElementById('quiz-screen').classList.add('hidden');
+            
+            const results = calculateResults();
+            const feedback = getFeedback(results);
+            
+            // Actualizar elementos de la pantalla de resultados
+            document.getElementById('completion-message').textContent = 
+                `¡Evaluación Completada, ${studentName}! 🎉`;
+            document.getElementById('overall-score').textContent = `${results.overall}%`;
+            document.getElementById('score-level').innerHTML = 
+                `Nivel: <strong>${feedback.level}</strong>`;
+            document.getElementById('score-details').textContent = 
+                `${results.totalCorrect} de ${results.totalQuestions} respuestas correctas`;
+            
+            // Mostrar resultados por módulo
+            const resultsGrid = document.getElementById('results-grid');
+            resultsGrid.innerHTML = '';
+            
+            modules.forEach(module => {
+                const moduleResult = results.modules[module.id];
+                const div = document.createElement('div');
+                div.className = 'result-module';
+                div.innerHTML = `
+                    <div class="result-module-icon ${module.color}">${module.icon}</div>
+                    <h3 class="result-module-title">${module.title}</h3>
+                    <div class="result-module-score">${moduleResult.percentage}%</div>
+                    <p class="result-module-details">${moduleResult.correct}/${moduleResult.total} correctas</p>
+                `;
+                resultsGrid.appendChild(div);
+            });
+            
+            // Mostrar recomendaciones
+            const recommendationsList = document.getElementById('recommendations-list');
+            recommendationsList.innerHTML = '';
+            
+            feedback.recommendations.forEach((rec, index) => {
+                const li = document.createElement('li');
+                li.className = 'recommendation-item';
+                li.innerHTML = `
+                    <div class="recommendation-number">${index + 1}</div>
+                    <span class="recommendation-text">${rec}</span>
+                `;
+                recommendationsList.appendChild(li);
+            });
+            
+            document.getElementById('feedback-screen').classList.remove('hidden');
+        }
+
+        function calculateResults() {
+            let totalQuestions = 0;
+            let correctAnswers = 0;
+            const moduleResults = {};
+
+            Object.keys(questions).forEach(moduleId => {
+                let moduleCorrect = 0;
+                let moduleTotal = questions[moduleId].length;
+                
+                questions[moduleId].forEach((_, index) => {
+                    const answerKey = `${moduleId}_${index}`;
+                    if (answers[answerKey]?.correct) {
+                        moduleCorrect++;
+                        correctAnswers++;
+                    }
+                });
+                
+                totalQuestions += moduleTotal;
+                moduleResults[moduleId] = {
+                    correct: moduleCorrect,
+                    total: moduleTotal,
+                    percentage: ((moduleCorrect / moduleTotal) * 100).toFixed(1)
+                };
+            });
+
+            return {
+                overall: ((correctAnswers / totalQuestions) * 100).toFixed(1),
+                modules: moduleResults,
+                totalCorrect: correctAnswers,
+                totalQuestions
+            };
+        }
+
+        function getFeedback(results) {
+            const overall = parseFloat(results.overall);
+            let level = '';
+            let recommendations = [];
+
+            if (overall >= 85) {
+                level = 'Excelente';
+                recommendations = [
+                    '¡Felicitaciones! Tienes un dominio sólido de los conceptos de calidad.',
+                    'Considera profundizar en aplicaciones prácticas de Seis Sigma en tu área de especialización.',
+                    'Podrías explorar metodologías avanzadas como Lean Six Sigma.'
+                ];
+            } else if (overall >= 70) {
+                level = 'Bueno';
+                recommendations = [
+                    'Tienes una base sólida, pero hay áreas específicas que necesitan refuerzo.',
+                    'Revisa los conceptos donde obtuviste menor puntuación.',
+                    'Practica con casos de estudio reales de implementación de Seis Sigma.'
+                ];
+            } else if (overall >= 50) {
+                level = 'Regular';
+                recommendations = [
+                    'Necesitas fortalecer varios conceptos fundamentales de calidad.',
+                    'Se recomienda revisar material básico sobre precursores de la calidad.',
+                    'Enfócate especialmente en entender la metodología DMAIC.',
+                    'Busca ejemplos prácticos de aplicación de herramientas de calidad.'
+                ];
+            } else {
+                level = 'Necesita Mejora';
+                recommendations = [
+                    'Es importante reforzar los conceptos básicos antes de continuar con el seminario.',
+                    'Revisa la historia y evolución de la calidad desde sus orígenes.',
+                    'Estudia los aportes de los principales precursores (Deming, Juran, Shewhart).',
+                    'Practica con las herramientas básicas antes de avanzar a Seis Sigma.',
+                    'Considera tomar un curso introductorio adicional.'
+                ];
+            }
+
+            return { level, recommendations };
+        }
+
+        function restartEvaluation() {
+            // Reiniciar estado
+            currentStep = 'welcome';
+            studentName = '';
+            currentModule = 0;
+            currentQuestion = 0;
+            answers = {};
+            showResult = false;
+            
+            // Limpiar formulario
+            document.getElementById('student-name').value = '';
+            document.getElementById('start-btn').disabled = true;
+            
+            // Mostrar pantalla de bienvenida
+            document.getElementById('welcome-screen').classList.remove('hidden');
+            document.getElementById('modules-screen').classList.add('hidden');
+            document.getElementById('quiz-screen').classList.add('hidden');
+            document.getElementById('feedback-screen').classList.add('hidden');
+        }
+    </script>
+</body>
+</html>
