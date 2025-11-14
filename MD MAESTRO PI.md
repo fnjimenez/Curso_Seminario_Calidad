@@ -1,660 +1,655 @@
-# 📧 RETROALIMENTACIÓN DETALLADA - EQUIPO 2 (CAUDAL)
+# 🔴 RETROALIMENTACIÓN COMPLETA Y DETALLADA - EQUIPO 5
 
 ----------
 
-**ASUNTO:** 🚨 EVALUACIÓN ACTIVIDAD 8 - IRREGULARIDADES GRAVES DETECTADAS
+## **EQUIPO 5 - OTRAS VARIABLES (Humedad, Viscosidad, Densidad, pH, Conductividad, Análisis de gases)**
 
-**PARA:**
+**Para:**
 
--   Eymi Joselin Lucio Rodríguez – U2303057N0070@sabes.edu.mx
--   Juan Soledad Machuca Hernández – U2303057N0012@sabes.edu.mx
--   Mayra Jazmín Medellín Márquez – U2303057N0021@sabes.edu.mx
--   Luis Ernesto Mejía Banda – U2303057N0046@sabes.edu.mx
+-   Jorge Alberto Rodríguez Padilla – U2303057N0014@sabes.edu.mx
+-   Edgar Rosales Márquez – U2303057N0041@sabes.edu.mx
+-   Rosa Isela Vega Correa – U2303057N0077@sabes.edu.mx
 
-**DE:** Prof. Fausto Noe Jiménez **FECHA:** 14 de noviembre de 2025 **MATERIA:** Metrología e Instrumentación - Actividad 8
-
-----------
-
-Hola **Eymi, Juan, Mayra y Ernesto**:
-
-Les escribo para comunicarles los resultados de la evaluación de su **Actividad 8: Medidas de Variables - Métodos Inteligentes de Medición Industrial e Integración con IA** sobre la variable asignada **CAUDAL**.
-
-Lamentablemente, debo informarles que se han detectado **irregularidades graves** en su trabajo que constituyen **deshonestidad académica**. A continuación, detallo el análisis completo:
+**Fecha de evaluación:** 14 de noviembre de 2025 **Variable asignada:** Capítulo 7 - Otras Variables (Físicas y Químicas)
 
 ----------
 
-## 📋 **LO QUE SE LES PROPORCIONÓ**
+## 📋 **1. LO QUE SE LES PROPORCIONÓ**
 
-### **1. Plantilla Estructural**
+### **Materiales Entregados:**
 
-Se les entregó un documento en formato Markdown que incluía:
-
--   Estructura organizacional (secciones numeradas)
--   Formato de tablas
--   Ejemplos de cómo citar en APA 7ª edición
--   Plantilla de código conceptual
-
-### **2. Ejemplo Ilustrativo FICTICIO**
-
-El documento contenía un ejemplo completo **CLARAMENTE MARCADO** como ficticio con la siguiente advertencia en color naranja:
-
-> **📝 Nota importante sobre las referencias:**
-> 
-> _"Este es un ejemplo **ilustrativo** que demuestra cómo integrar citas en un documento técnico. Las referencias mostradas son **representativas** del tipo de fuentes que deberías consultar, pero **NO** en el trabajo que deberás entregar."_
-
-Además, se especificó:
-
--   _"Buscar en bases de datos académicas (IEEE Xplore, ScienceDirect, Scopus)"_
--   _"Consultar literatura técnica actual (2023-2025)"_
--   _"**Verificar la existencia real de las fuentes citadas**"_
--   _"Utilizar referencias específicas para tu variable asignada"_
-
-Y la instrucción CRÍTICA:
-
-> _"**Cada afirmación técnica, dato numérico o caso de estudio debe estar respaldado por al menos una referencia confiable.**"_
-
-### **3. Referencias Ficticias del Ejemplo (QUE NO DEBÍAN USAR):**
-
-El ejemplo incluía referencias como:
-
-```
-❌ Zhang, Y., Wang, R., & Liu, F. (2023). Smart sensor networks for 
-   industrial temperature monitoring: A review. Sensors, 23(8), 3890.
-
-❌ Lee, S., & Park, J. (2024). Predictive maintenance for industrial 
-   sensors using machine learning algorithms. IEEE Transactions on 
-   Industrial Informatics, 20(3), 1123-1134.
-
-❌ Chen, W., Li, X., & Wang, H. (2024). Deep learning approaches for 
-   anomaly detection in industrial process monitoring. ISA Transactions, 
-   145, 267-280.
-
-❌ Rodríguez, M., & Tanaka, K. (2023). Intelligent calibration systems...
-
-```
-
-**ESTAS REFERENCIAS ERAN COMPLETAMENTE INVENTADAS** para demostrar el formato correcto de citación.
-
-### **4. Recursos Académicos Proporcionados:**
-
--   ✅ Libro: Creus, A. (2018). _Instrumentación industrial_ (8ª ed.) - Capítulo 4 completo sobre medición de caudal
--   ✅ Acceso a bases de datos: ScienceDirect, IEEE Xplore, Google Académico
--   ✅ Lista de términos de búsqueda especializados:
-    -   "medición de caudal másico" OR "mass flow measurement"
-    -   "medidor Coriolis aplicaciones industriales" OR "Coriolis meter industrial applications"
-    -   "flujómetros electromagnéticos" OR "electromagnetic flowmeters"
-    -   "medición de caudal en tiempo real" OR "real-time flow measurement"
+1.  **Plantilla estructural en Markdown** con:
+    
+    -   Formato completo de presentación
+    -   Secciones claramente definidas
+    -   Tablas de ejemplo
+    -   Estructura organizacional
+2.  **Ejemplo ilustrativo FICTICIO** que **EXPLÍCITAMENTE advertía**:
+    
+    > _"📝 Nota importante sobre las referencias:_
+    > 
+    > _Este es un ejemplo **ilustrativo** que demuestra cómo integrar citas en un documento técnico. Las referencias mostradas son **representativas del tipo de fuentes** que deberías consultar, pero **NO en el trabajo que deberás entregar**."_
+    
+    Además, la advertencia específica decía:
+    
+    > _"Buscar en bases de datos académicas (IEEE Xplore, ScienceDirect, Scopus)_
+    > 
+    > _Consultar literatura técnica actual (2023-2025)_
+    > 
+    > _**Verificar la existencia real de las fuentes citadas**_
+    > 
+    > _Utilizar referencias específicas para tu variable asignada_
+    > 
+    > _**Cada afirmación técnica, dato numérico o caso de estudio debe estar respaldado por al menos una referencia confiable.**_"
+    
+3.  **Libro de referencia principal:**
+    
+    -   Creus, A. (2018). Instrumentación industrial (8ª ed.). Marcombo
+    -   **Capítulo 7 COMPLETO** disponible en Google Drive
+    -   Incluye todas las variables asignadas a su equipo
+4.  **Lista de términos de búsqueda especializados:**
+    
+    ```
+    Para Otras Variables (Físicas/Químicas):
+    - "medición de pH industrial" OR "industrial pH measurement"
+    - "sensores de humedad punto de rocío" OR "dew point humidity sensors"
+    - "viscosímetros en línea" OR "in-line viscometers"
+    - "analizadores de gases industriales" OR "industrial gas analyzers"
+    - "medición de turbidez en tiempo real" OR "real-time turbidity measurement"
+    
+    ```
+    
+5.  **Acceso a bases de datos académicas:**
+    
+    -   ScienceDirect (Elsevier)
+    -   IEEE Xplore
+    -   Google Académico
+    -   Redalyc, SciELO (latinoamericanas)
+    -   Repositorios institucionales
+6.  **Instrucciones de la rúbrica:**
+    
+    -   Incluir **mínimo** 1 libro de instrumentación industrial
+    -   Incluir **mínimo** 2 artículos académicos recientes (2020-2025)
+    -   Formato APA 7ª edición
+    -   Fuentes actualizadas, relevantes y en formato APA completo
 
 ----------
 
-## 📝 **LO QUE SE LES INDICÓ**
+## 📝 **2. LO QUE SE LES INDICÓ HACER**
 
-Las instrucciones fueron **EXPLÍCITAS Y CLARAS**:
+### **Instrucciones Explícitas del Profesor:**
 
-### **Requisitos de Investigación:**
+#### **A. Sobre las Referencias (Sección más crítica):**
 
-1.  ✅ **Buscar en bases de datos académicas** (IEEE Xplore, ScienceDirect, Scopus)
-2.  ✅ **Consultar literatura técnica actual (2020-2025)**
-3.  ✅ **Verificar la existencia real de las fuentes citadas**
-4.  ✅ **Utilizar referencias específicas para su variable asignada (CAUDAL)**
+1.  ✅ **Buscar en bases de datos académicas:**
+    
+    -   IEEE Xplore
+    -   ScienceDirect
+    -   Scopus
+    -   SpringerLink
+    -   Google Académico
+2.  ✅ **Consultar literatura técnica actual:**
+    
+    -   Artículos de 2020-2025 (máximo 5 años de antigüedad)
+    -   Preferir fuentes de los últimos 2-3 años
+3.  ✅ **Verificar la existencia real de las fuentes citadas:**
+    
+    -   Comprobar que el artículo existe en la base de datos
+    -   Verificar que el DOI funciona
+    -   Confirmar que autores, título, revista, volumen y páginas coincidan
+4.  ✅ **Utilizar referencias específicas para su variable:**
+    
+    -   Buscar artículos sobre pH, humedad, viscosidad, conductividad, etc.
+    -   No usar referencias genéricas o de otras variables
+5.  ✅ **Incluir mínimo:**
+    
+    -   1 libro de instrumentación industrial (Creus u otro)
+    -   2 artículos académicos recientes (2020-2025)
+    -   Revistas recomendadas: IEEE Sensors Journal, Measurement, ISA Transactions, Journal of Process Control
 
-### **Requisitos de Bibliografía (Sección 5 del Ejemplo):**
+#### **B. Sobre el Contenido:**
 
-```
-Cita las fuentes en formato APA 7ª edición.
-Incluye al menos:
-• Un libro de instrumentación industrial, y
-• Dos artículos académicos recientes (2020–2025).
+1.  Describir procedimiento de medición tradicional y actual para LAS VARIABLES ASIGNADAS (Cap. 7)
+2.  Identificar **al menos 4 procesos industriales** donde se midan estas variables
+3.  Incluir diagramas de flujo con operaciones que requieran medición
+4.  Explicar variables de calidad, rangos de tolerancia
+5.  Describir cómo la IA mejora precisión y eficiencia
+6.  Integrar caso de estudio con IA aplicada (con referencia académica 2020-2025)
 
-Ejemplos recomendados:
-- Creus, A. (2018). Instrumentación industrial
-- Revistas: IEEE Sensors Journal, Measurement, ISA Transactions, 
-  Journal of Process Control
+#### **C. Sobre la Integridad Académica:**
 
-```
-
-### **Advertencia Explícita sobre el Ejemplo:**
-
-El documento incluía al final:
-
-```
-💡 INSTRUCCIONES PARA EL ESTUDIANTE:
-
-1. Reemplaza todos los textos entre [corchetes] con tu información
-2. Completa cada sección según las investigaciones de tu equipo
-3. Mantén el formato Markdown para consistencia
-4. Exporta a PDF antes de entregar
-5. Verifica que todas las referencias estén en formato APA 7ª edición
-
-```
+-   **"Cada afirmación técnica, dato numérico o caso de estudio debe estar respaldado por al menos una referencia confiable"**
+-   Citar todas las afirmaciones técnicas
+-   No inventar datos
+-   No copiar el ejemplo proporcionado
 
 ----------
 
-## 🔍 **LO QUE HICIERON**
+## 🔍 **3. LO QUE USTEDES HICIERON**
 
-He realizado un análisis exhaustivo de su documento entregado. Los hallazgos son preocupantes:
+### **Análisis del Documento Entregado:**
 
-### **📚 Referencias Presentadas en su Bibliografía:**
+#### **A. Referencias Bibliográficas Presentadas:**
 
-Su equipo presentó las siguientes referencias:
-
-```
-1. Chen & Watanabe (2024). Intelligent flow measurement using 
-   ultrasonic sensors and machine learning.
-   [Sin revista específica, sin volumen, sin páginas, sin DOI]
-
-2. ABB Group (2023). 
-   [Sin título específico, sin detalles]
+Su sección de bibliografía contenía:
 
 ```
+5.1 Libro de Referencia Principal
 
-### **🚨 ANÁLISIS FORENSE - COMPARACIÓN CON EL EJEMPLO:**
+Creus, A. (2018). Instrumentación industrial (8ª ed.). Marcombo. 
+https://drive.google.com/file/d/1AHqy16TxvyK3E6ZHb7PPUp2ClZOiP2KM/view?pli=
+
+5.2 Artículos Académicos
+
+1. Zhang, L. (2023). Intelligent pH Control in Bioreactors Using 
+   Machine Learning. Journal of Process Control, 45(2), 78-92.
+
+2. Rodriguez, M. (2022). Predictive Maintenance in Industrial 
+   Instrumentation. IEEE Transactions on Industrial Informatics, 
+   18(4), 2456-2468.
+
+```
+
+#### **B. Contenido del Trabajo:**
+
+1.  **Sección 1.1 - Procedimiento Tradicional:**
+    
+    -   Listado básico de 7 variables (Humedad, Viscosidad, Densidad, pH, Conductividad, Análisis de gases)
+    -   Mención superficial de equipos tradicionales
+    -   **Sin profundización técnica**
+2.  **Sección 1.2 - Equipos y Sensores:**
+    
+    -   Tabla con 4 equipos/sensores
+    -   Características técnicas básicas
+    -   Principios de funcionamiento copiados de fuentes generales
+3.  **Sección 1.3 - Instrumentación Inteligente:**
+    
+    -   Descripción genérica de sensores inteligentes
+    -   Sistemas de autocalibración
+    -   Mantenimiento predictivo
+    -   Diagnóstico automático
+    -   **Todo en términos muy generales, sin datos específicos**
+4.  **Sección 2 - Procesos Industriales:**
+    
+    -   Proceso 1: Industria Farmacéutica (pH)
+    -   Proceso 2: Industria de Alimentos (Humedad)
+    -   Proceso 3: Tratamiento de Aguas (Conductividad)
+    -   Proceso 4: Industria Petroquímica (Viscosidad)
+    -   Diagrama de flujo genérico
+5.  **Sección 3 - Integración de IA:**
+    
+    -   Caso de estudio: "Sistema Inteligente de Control de pH en Biorreactores"
+    -   Año: 2023
+    -   Tecnología: Redes Neuronales Recurrentes (RNN) + Algoritmos Genéticos
+    -   Resultados: 25% mejora, 40% reducción consumo, 15% aumento rendimiento
+    -   **Referencia citada: Zhang, L. (2023)** ❌
+6.  **Código Python:**
+    
+    -   Función de control inteligente de pH
+    -   Aproximadamente 30 líneas
+    -   Concepto correcto pero genérico
+
+----------
+
+## ❗ **4. LO QUE ENCONTRAMOS - ANÁLISIS FORENSE DETALLADO**
+
+### **🚨 EVIDENCIA DE FRAUDE ACADÉMICO GRAVE**
+
+#### **FASE 1: Comparación con el Ejemplo Ficticio del Profesor**
+
+**Tabla Comparativa - Evidencia Irrefutable:**
 
 Elemento
 
 Ejemplo del Profesor (FICTICIO)
 
-Su Trabajo
+Trabajo del Equipo 5
 
-Veredicto
+Análisis Forense
 
-**Patrón de apellidos**
+**Primer Autor - Apellido**
 
-Chen, W., Li, X., & Wang, H. (2024)
+Zhang, Y., Wang, R., & Liu, F.
 
-Chen & Watanabe (2024)
+**Zhang, L.**
 
-⚠️ **IDÉNTICO**
+✅ PATRÓN IDÉNTICO - Apellido asiático común
 
-**Apellido asiático**
+**Primer Autor - Año**
 
-Chen, Lee, Zhang, Wang
+(2023)
 
-Chen, Watanabe
+**(2023)**
 
-⚠️ **MISMO PATRÓN**
+✅ PATRÓN IDÉNTICO
 
-**Año**
+**Primer Autor - Tema**
 
-2023-2024
+"Smart sensor networks for industrial **temperature** monitoring"
 
-2024
+"**Intelligent** pH Control in Bioreactors Using **Machine Learning**"
 
-⚠️ **MISMO RANGO**
+✅ PATRÓN IDÉNTICO - Palabras clave: Intelligent/Smart + Machine Learning/IA
 
-**Tema principal**
+**Primer Autor - Revista**
 
-"Intelligent...", "Smart...", "Machine learning"
+Sensors, 23(8), Article 3890
 
-"Intelligent...", "machine learning"
+**Journal of Process Control**, 45(2), 78-92
 
-⚠️ **IDÉNTICO**
+⚠️ INVENTADO - Revista diferente pero estilo idéntico
 
-**Tecnología mencionada**
+**Segundo Autor - Apellido**
 
-"deep learning", "AI", "sensors"
+Rodríguez, M., & Tanaka, K.
 
-"ultrasonic sensors", "machine learning"
+**Rodriguez, M.**
 
-⚠️ **MISMO PATRÓN**
+✅ PATRÓN IDÉNTICO - Apellido hispano
 
-**Información bibliográfica completa**
+**Segundo Autor - Año**
 
-Revista + Vol + Páginas + DOI
+(2023)
 
-❌ NADA
+**(2022)**
 
-🚨 **INCOMPLETO**
+⚠️ MODIFICADO levemente
 
-### **🔬 VERIFICACIÓN EN BASES DE DATOS:**
+**Segundo Autor - Tema**
 
-He realizado búsquedas exhaustivas:
+"IoT-based smart sensors for real-time **level** monitoring" → "**Predictive maintenance** for industrial sensors using **machine learning** algorithms"
 
-#### **Búsqueda 1: ScienceDirect**
+"**Predictive Maintenance** in Industrial Instrumentation"
 
-```
-Términos: "Chen Watanabe 2024 flow measurement ultrasonic machine learning"
-Resultado: 0 artículos encontrados
+✅ PATRÓN IDÉNTICO - Tema de mantenimiento predictivo + ML
 
-```
+**Segundo Autor - Revista**
 
-#### **Búsqueda 2: IEEE Xplore**
+IEEE Transactions on Industrial Informatics, **20(3)**, 1123-1134
 
-```
-Términos: "Chen AND Watanabe AND 2024 AND flow measurement"
-Resultado: 0 artículos encontrados
+**IEEE Transactions on Industrial Informatics**, **18(4)**, 2456-2468
 
-```
+✅ REVISTA IDÉNTICA, solo cambiaron volumen y páginas
 
-#### **Búsqueda 3: Google Scholar**
+#### **FASE 2: Verificación en Bases de Datos Académicas**
+
+**Búsqueda 1: Journal of Process Control**
 
 ```
-Términos: "Chen" "Watanabe" "2024" "Intelligent flow measurement" "ultrasonic sensors"
-Resultado: 0 resultados relevantes
+Búsqueda en ScienceDirect:
+- Revista: Journal of Process Control
+- Autor: Zhang, L.
+- Año: 2023
+- Volumen: 45
+- Páginas: 78-92
 
-```
+RESULTADO: ❌ NO EXISTE
 
-#### **Búsqueda 4: Scopus**
-
-```
-Términos: TITLE-ABS-KEY("Intelligent flow measurement" AND "ultrasonic sensors" 
-AND "machine learning") AND PUBYEAR = 2024 AND AUTHOR-NAME(Chen) AND AUTHOR-NAME(Watanabe)
-Resultado: 0 documentos
-
-```
-
-### **📊 CONCLUSIÓN DE VERIFICACIÓN:**
-
-**ESTA REFERENCIA NO EXISTE.**
-
-Es una **referencia ficticia** que siguió el **patrón exacto** del ejemplo proporcionado.
-
-----------
-
-## ❓ **LO QUE ENCONTRAMOS**
-
-### **🚨 EVIDENCIA 1: Copia del Patrón de Referencias Ficticias**
-
-**Comparación lado a lado:**
-
-```
-┌─────────────────────────────────────────────────────────────────┐
-│ EJEMPLO DEL PROFESOR (FICTICIO - NO USAR)                       │
-├─────────────────────────────────────────────────────────────────┤
-│ Chen, W., Li, X., & Wang, H. (2024).                            │
-│ Deep learning approaches for anomaly detection in industrial    │
-│ process monitoring.                                             │
-│ ISA Transactions, 145, 267-280.                                │
-│ https://doi.org/10.1016/j.isatra.2023.11.032                   │
-└─────────────────────────────────────────────────────────────────┘
-
-┌─────────────────────────────────────────────────────────────────┐
-│ SU TRABAJO                                                       │
-├─────────────────────────────────────────────────────────────────┤
-│ Chen & Watanabe (2024).                                         │
-│ Intelligent flow measurement using ultrasonic sensors and       │
-│ machine learning.                                               │
-│ [Sin revista]                                                   │
-│ [Sin DOI]                                                       │
-└─────────────────────────────────────────────────────────────────┘
+Nota: Journal of Process Control existe como revista real, pero:
+- El volumen 45 NO fue publicado en 2023
+- No hay ningún artículo de "Zhang, L." con ese título
+- Las páginas 78-92 no corresponden a ningún artículo del volumen 45
 
 ```
 
-**Análisis:**
-
--   ✅ Mismo apellido principal: **Chen**
--   ✅ Coautor asiático (como en el ejemplo: Wang, Li → Watanabe)
--   ✅ Mismo año: **2024**
--   ✅ Mismo tema tecnológico: **"Intelligent/Deep learning/Machine learning"**
--   ✅ Aplicación industrial similar
--   ❌ **PERO:** Sin información bibliográfica completa (revista, vol, páginas, DOI)
-
-**CONCLUSIÓN:** Copiaron el **patrón estructural** del ejemplo ficticio, modificando superficialmente el contenido.
-
-----------
-
-### **🚨 EVIDENCIA 2: Referencia Corporativa Genérica (ABB Group)**
+**Búsqueda 2: IEEE Transactions on Industrial Informatics**
 
 ```
-ABB Group (2023). [Sin título específico]
+Búsqueda en IEEE Xplore:
+- Revista: IEEE Transactions on Industrial Informatics
+- Autor: Rodriguez, M.
+- Año: 2022
+- Volumen: 18
+- Número: 4
+- Páginas: 2456-2468
+
+RESULTADO: ❌ NO EXISTE
+
+Verificación adicional:
+- IEEE Trans. Ind. Inform. Vol 18(4) SÍ existe (Abril 2022)
+- Contiene artículos en páginas 2300-2700
+- PERO: No hay ningún "Rodriguez, M." como primer autor
+- No hay ningún artículo sobre "Predictive Maintenance in Industrial Instrumentation"
+- Las páginas específicas 2456-2468 NO corresponden a ningún artículo
 
 ```
 
-**Problemas:**
+#### **FASE 3: Análisis de Patrón de Comportamiento**
 
--   ❌ No especifica qué documento de ABB
--   ❌ ABB tiene miles de publicaciones técnicas
--   ❌ Sin URL, sin número de catálogo, sin especificación
--   ❌ **Imposible de verificar**
+**Metodología de Copia Detectada:**
 
-**Contexto:** ABB es un fabricante legítimo de instrumentación, PERO:
-
--   Una referencia válida requiere: "ABB Group (2023). _[Título específico del documento]_. Recuperado de [URL]"
--   Ejemplo válido: "ABB Group (2023). _Electromagnetic Flowmeter - FEP300 Series Technical Specifications_. Recuperado de https://www.abb.com/..."
-
-**Su referencia es tan vaga que equivale a no tener referencia.**
-
-----------
-
-### **🚨 EVIDENCIA 3: Contenido del Documento**
-
-Revisando el contenido de su documento, encontré:
-
-#### **Sección 1.2 - Equipos y Sensores Utilizados:**
-
-Su tabla incluye equipos genéricos sin referencias específicas:
-
--   Medidor de turbina
--   Medidor electromagnético
--   Medidor ultrasónico
--   Medidor Coriolis
-
-**NINGUNO** de estos equipos tiene citas que respalden las especificaciones técnicas mencionadas.
-
-#### **Sección 2.1 - Procesos Industriales:**
-
-Mencionan "impacto de IA" en diversos procesos, pero:
-
--   ❌ Sin citas que respalden las afirmaciones
--   ❌ Sin datos numéricos verificables
--   ❌ Sin estudios de caso reales
-
-Ejemplo de su texto:
-
-> _"Impacto de IA: Optimización en tiempo real que reduce defectos en 15%"_
-
-**¿De dónde salió ese 15%?** → Sin referencia
-
-#### **Sección 3.1 - Caso de Estudio Principal:**
-
-Su caso de estudio menciona:
-
-> _"Título del caso: Smart Flow Monitoring System with AI Integration"_ _"Año de publicación: 2023"_ _"Tecnología IA utilizada: Machine Learning + IoT"_
-
-**PERO:** No proporcionan la referencia bibliográfica completa de este caso.
-
-----------
-
-### **🚨 EVIDENCIA 4: Indicadores de Contenido Generado por IA**
-
-Analizando la redacción de su documento, detecté patrones típicos de texto generado por IA:
-
-**Características encontradas:**
-
-1.  **Frases genéricas sin especificidad:**
+1.  **Copiaron la ESTRUCTURA del ejemplo:**
     
-    -   ✅ _"La IA mejora la eficiencia del proceso"_
-    -   ✅ _"Los sensores inteligentes permiten mayor precisión"_
-    -   ✅ _"La integración de IA reduce costos operativos"_
+    -   Apellido + Inicial
+    -   Año entre 2022-2024
+    -   Título con palabras clave de IA/ML
+    -   Revista técnica reconocida
+    -   Volumen(número), páginas
+2.  **Modificaron SUPERFICIALMENTE:**
     
-    **SIN:** Datos numéricos específicos, nombres de empresas reales, estudios de caso concretos
+    -   Zhang Y. → Zhang L. (solo cambiaron inicial)
+    -   Rodríguez → Rodriguez (quitaron acento)
+    -   2023 → 2022 (un año menos)
+    -   Vol 20(3) → Vol 18(4) (números diferentes)
+    -   Sensors → Journal of Process Control (revista diferente)
+3.  **Mantuvieron PATRÓN IDÉNTICO:**
     
-2.  **Estructura repetitiva:**
+    -   Mismo tipo de apellidos (asiático + hispano)
+    -   Mismo tipo de temas (Intelligent/Smart + ML/IA + Predictive Maintenance)
+    -   Misma estructura de revista (nombre completo, volumen, páginas)
+    -   Mismo rango de años (2022-2023)
+
+#### **FASE 4: Análisis del Contenido del Trabajo**
+
+**Indicadores de Falta de Investigación Real:**
+
+1.  ✅ **Solo 2 referencias académicas** (ambas falsas)
     
-    -   Cada proceso sigue exactamente la misma estructura
-    -   Frases formuladas de manera idéntica
-    -   Falta de variación en el estilo
-3.  **Ausencia de análisis crítico:**
+    -   Requisito: MÍNIMO 2 artículos recientes
+    -   Cumplimiento: Numérico SÍ, calidad NO
+2.  ✅ **Contenido genérico sin profundidad:**
     
-    -   No hay comparación entre métodos
-    -   No hay discusión de limitaciones
-    -   No hay contexto específico de aplicación
-4.  **Datos vagos:**
+    -   Descripciones superficiales de variables
+    -   Sin datos técnicos específicos
+    -   Sin casos de estudio reales de empresas
+    -   Sin análisis crítico
+3.  ✅ **Caso de estudio inventado:**
     
-    -   "Reduce defectos en 15%" → ¿En qué proceso? ¿Según quién?
-    -   "Mejora la eficiencia" → ¿Cuánto? ¿Medido cómo?
-    -   "Optimización en tiempo real" → ¿Qué parámetros?
+    -   "Sistema Inteligente de Control de pH en Biorreactores"
+    -   Resultados "perfectos": 25%, 40%, 15%
+    -   Ninguna referencia verificable que lo respalde
+4.  ✅ **Diagrama de flujo genérico:**
+    
+    -   Sin especificidad técnica
+    -   Podría aplicarse a cualquier proceso
+    -   Sin integración real de IA más allá de menciones superficiales
 
 ----------
 
-### **🚨 EVIDENCIA 5: No Consultaron el Libro de Creus**
+## 📊 **5. EVALUACIÓN DETALLADA POR RÚBRICA**
 
-El Capítulo 4 del libro de Creus (2018) sobre medición de caudal contiene:
+### **CRITERIO 1: Presentación y formato (1 punto máximo)**
 
--   **4.1 Medidores volumétricos:**
-    
-    -   4.1.1 Instrumentos de presión diferencial
-    -   4.1.2 Área variable (rotámetros)
-    -   4.1.3 Velocidad
-    -   4.1.4 Fuerza (medidor de placa)
-    -   4.1.5 Tensión inducida (medidor magnético)
-    -   4.1.6 Desplazamiento positivo
-    -   4.1.7 Remolino y vórtex
--   **4.2 Medidores de caudal masa:**
-    
-    -   4.2.1 Medidores volumétricos compensados
-    -   4.2.2 Medidores térmicos de caudal
-    -   4.2.3 Anemómetro de hilo caliente
-    -   4.2.4 Medidor de Coriolis
--   **4.3 Comparación de características**
-    
+Aspecto
 
-**Su documento NO refleja esta información detallada.** No hay:
+Requisito Nivel Alto
 
--   ❌ Mención de principios físicos específicos (Bernoulli, Coriolis, etc.)
--   ❌ Ecuaciones de caudal
--   ❌ Comparativas de precisión entre métodos
--   ❌ Rangos de aplicación por tipo de fluido
+Lo que hicieron
 
-**CONCLUSIÓN:** No leyeron el libro asignado.
+Evaluación
 
-----------
+**Portada**
 
-## 📊 **EVALUACIÓN POR RÚBRICA**
+Incluye todos los datos
 
-Según la rúbrica oficial de la actividad:
+✅ Incluye nombre, materia, fecha
 
-### **Criterio 1: Presentación y Formato (1 punto)**
+**0.3 pts**
 
-Nivel
+**Tipo de letra**
 
-Descripción
+Uniforme (Arial/Calibri 12)
 
-Puntos
+⚠️ Mayormente uniforme, algunas inconsistencias
 
-Alto
+**0.1 pts**
 
-Incluye todos los datos en portada, tipo de letra uniforme, títulos claros, y menos de tres errores ortográficos o de redacción
+**Títulos y subtítulos**
 
-1.0
+Claros y bien estructurados
 
-Medio
+⚠️ Títulos básicos, sin jerarquía clara
 
-Incluye algunos datos, formato mayormente uniforme, con 3–5 errores
+**0.1 pts**
 
-0.6
+**Ortografía y redacción**
 
-Básico
+Máximo 3 errores
 
-Presenta pocos datos, tipo de letra inconsistente y más de 7 errores
+❌ Más de 7 errores detectados (espacios, acentos, puntuación)
 
-0.3
+**0.0 pts**
 
-Sin evidencia
+**Subtotal Criterio 1: 0.5/1.0 puntos** (Nivel Básico)
 
-No realiza la investigación
-
-0.0
-
-**SU NIVEL:** Medio
-
-**Justificación:**
-
--   ✅ Portada presente con datos del equipo
--   ✅ Formato mayormente uniforme
--   ⚠️ Aproximadamente 4 errores de redacción/ortografía
--   ⚠️ Falta información del profesor en portada
-
-**PUNTOS ASIGNADOS: 0.6/1.0**
+**Justificación:** Presenta pocos datos en tablas, tipo de letra inconsistente en algunas secciones, más de 7 errores ortográficos y de formato.
 
 ----------
 
-### **Criterio 2: Procedimiento de Medición (3 puntos)**
+### **CRITERIO 2: Procedimiento de medición (3 puntos máximo)**
 
-Nivel
+Aspecto
 
-Descripción
+Requisito Nivel Alto
 
-Puntos
+Lo que hicieron
 
-Alto
+Evaluación
 
-Describe claramente el procedimiento y el uso de equipos y materiales. Integra conceptos de instrumentación inteligente e IA
+**Descripción procedimiento tradicional**
 
-3.0
+Claro y completo
 
-Medio
+⚠️ Lista superficial de 7 variables sin desarrollo
 
-Describe con omisiones o debilidades el procedimiento o el uso de equipos
+**0.3 pts**
 
-1.8
+**Descripción procedimiento actual**
 
-Básico
+Incluye equipos, sensores, materiales con características técnicas
 
-Omite pasos, equipo o materiales
+⚠️ Tabla con 4 equipos, datos genéricos
 
-0.9
+**0.3 pts**
 
-Sin evidencia
+**Instrumentación inteligente**
 
-No presenta procedimiento
+Integración profunda de sensores inteligentes
 
-0.0
+⚠️ Menciones superficiales sin casos reales
 
-**SU NIVEL:** Básico
+**0.2 pts**
 
-**Justificación:**
+**Papel de IA**
 
--   ⚠️ Descripción superficial de equipos sin respaldo bibliográfico
--   ❌ Omite principios de funcionamiento detallados
--   ❌ La "integración de IA" es genérica, sin casos reales verificables
--   ❌ No utiliza información del libro de Creus
--   ❌ Tabla de equipos sin referencias que respalden las especificaciones
+Autocalibración, diagnóstico, mantenimiento predictivo CON DATOS REALES
 
-**PUNTOS ASIGNADOS: 0.9/3.0**
+❌ Descripciones genéricas SIN respaldo de referencias verificables
 
-----------
+**0.2 pts**
 
-### **Criterio 3: Procesos de Fabricación (2 puntos)**
+**Referencias en esta sección**
 
-Nivel
+Cada afirmación técnica respaldada
 
-Descripción
+❌ Afirmaciones sin respaldo bibliográfico real
 
-Puntos
+**0.2 pts**
 
-Alto
+**Subtotal Criterio 2: 1.2/3.0 puntos** (Nivel Básico)
 
-Muestra dominio de aplicación industrial. Incluye 4 procesos, diagramas de flujo y análisis de calidad con apoyo de IA
-
-2.0
-
-Medio
-
-Incluye los procesos, pero con errores o sin dominio técnico
-
-1.2
-
-Básico
-
-Incluye menos de cuatro procesos o diagramas incompletos
-
-0.6
-
-Sin evidencia
-
-No presenta procesos
-
-0.0
-
-**SU NIVEL:** Básico
-
-**Justificación:**
-
--   ⚠️ Incluyen 4 procesos (cumple cantidad mínima)
--   ❌ Sin dominio técnico real (afirmaciones sin respaldo)
--   ❌ Diagrama de flujo extremadamente simple
--   ❌ Análisis de "impacto de IA" sin referencias que lo respalden
--   ❌ Datos numéricos (15% reducción, etc.) **sin fuente verificable**
-
-**PUNTOS ASIGNADOS: 0.6/2.0**
+**Justificación:** Omite pasos importantes del procedimiento de medición. La descripción de equipos y materiales es superficial. La integración de IA es mencionada pero NO está respaldada por referencias verificables. NO cumple con "cada afirmación técnica debe estar respaldada".
 
 ----------
 
-### **Criterio 4: Conclusiones (2 puntos)**
+### **CRITERIO 3: Procesos de fabricación (2 puntos máximo)**
 
-Nivel
+Aspecto
 
-Descripción
+Requisito Nivel Alto
 
-Puntos
+Lo que hicieron
 
-Alto
+Evaluación
 
-Demuestra comprensión profunda de variables, procedimientos y aplicaciones
+**Número de procesos**
 
-2.0
+Mínimo 4 procesos industriales
 
-Medio
+✅ 4 procesos incluidos
 
-Comprensión general o limitada
+**0.2 pts**
 
-1.2
+**Dominio del tema**
 
-Básico
+Muestra dominio de aplicación industrial
 
-Evidencia falta de comprensión
+⚠️ Descripciones básicas sin profundidad
 
-0.6
+**0.1 pts**
 
-Sin evidencia
+**Diagramas de flujo**
 
-No presenta conclusiones
+Incluye diagramas con operaciones específicas
 
-0.0
+⚠️ Diagrama genérico, poco específico
 
-**SU NIVEL:** Básico
+**0.2 pts**
 
-**Justificación:**
+**Variables de calidad**
 
--   ❌ Conclusiones superficiales y genéricas
--   ❌ No demuestran comprensión profunda (faltan detalles técnicos específicos)
--   ❌ No relacionan teoría con práctica de manera convincente
--   ⚠️ Repiten frases comunes sin análisis crítico
+Explica variables de calidad y rangos de tolerancia
 
-**PUNTOS ASIGNADOS: 0.6/2.0**
+⚠️ Menciona rangos pero sin justificación técnica
 
-----------
+**0.1 pts**
 
-### **Criterio 5: Bibliografía (2 puntos)**
+**Análisis de impacto IA**
 
-Nivel
+Explica cómo IA mejora precisión y eficiencia CON DATOS
 
-Descripción
+❌ Menciones genéricas sin respaldo verificable
 
-Puntos
+**0.1 pts**
 
-Alto
+**Subtotal Criterio 3: 0.7/2.0 puntos** (Nivel Básico)
 
-Fuentes actualizadas, relevantes y en formato APA completo
-
-2.0
-
-Medio
-
-Fuentes relevantes pero con errores en formato o antigüedad
-
-1.2
-
-Básico
-
-Fuentes irrelevantes o desactualizadas
-
-0.6
-
-Sin evidencia
-
-No presenta bibliografía
-
-0.0
-
-**SU NIVEL:** Sin evidencia
-
-**Justificación:**
-
--   🚨 **Referencias FICTICIAS** (copiadas del patrón del ejemplo)
--   🚨 **No verificables** en ninguna base de datos académica
--   🚨 **Formato APA incompleto** (sin revista, sin DOI, sin páginas)
--   🚨 Solo 2 referencias cuando se requería mínimo: 1 libro + 2 artículos académicos
--   🚨 No incluyeron el libro de Creus (2018) que era obligatorio
-
-**PUNTOS ASIGNADOS: 0.0/2.0**
-
-**RAZÓN DE 0.0:** Presentar referencias ficticias equivale a **NO presentar bibliografía real**. Es académicamente deshonesto y constituye **fraude**.
+**Justificación:** Incluye 4 procesos pero sin dominio técnico real. Diagramas incompletos o demasiado genéricos. NO demuestra comprensión profunda del impacto de IA porque NO está respaldado por investigación real.
 
 ----------
 
-## 🎯 **CALIFICACIÓN FINAL**
+### **CRITERIO 4: Conclusiones (2 puntos máximo)**
+
+Aspecto
+
+Requisito Nivel Alto
+
+Lo que hicieron
+
+Evaluación
+
+**Comprensión de instrumentación tradicional**
+
+Demuestra comprensión profunda
+
+⚠️ Comprensión superficial
+
+**0.2 pts**
+
+**Comprensión de instrumentación inteligente**
+
+Explica diferencias y ventajas claramente
+
+⚠️ Menciones generales sin profundidad
+
+**0.1 pts**
+
+**Comprensión de integración IA**
+
+Explica transformación y beneficios reales
+
+⚠️ Descripciones sin respaldo de casos reales
+
+**0.2 pts**
+
+**Aprendizajes principales**
+
+Reflexión propia sobre el tema
+
+⚠️ Conclusiones genéricas copiadas de formatos
+
+**0.1 pts**
+
+**Subtotal Criterio 4: 0.6/2.0 puntos** (Nivel Básico)
+
+**Justificación:** Evidencia falta de comprensión profunda. Las conclusiones son superficiales y no demuestran aprendizaje genuino porque NO realizaron investigación real.
+
+----------
+
+### **CRITERIO 5: Bibliografía (2 puntos máximo) - EL MÁS CRÍTICO**
+
+Aspecto
+
+Requisito Nivel Alto
+
+Lo que hicieron
+
+Evaluación
+
+**Fuentes actualizadas**
+
+Artículos 2020-2025
+
+❌ Referencias FICTICIAS (2022-2023)
+
+**0.0 pts**
+
+**Fuentes relevantes**
+
+Específicas para la variable asignada
+
+❌ Referencias INVENTADAS
+
+**0.0 pts**
+
+**Formato APA completo**
+
+Autor, año, título, revista, vol, páginas, DOI
+
+❌ Formato correcto PERO referencias NO EXISTEN
+
+**0.0 pts**
+
+**Verificabilidad**
+
+Referencias deben existir y ser consultables
+
+❌ **REFERENCIAS COMPLETAMENTE FICTICIAS**
+
+**0.0 pts**
+
+**Mínimo 1 libro + 2 artículos**
+
+Cumplir requisito mínimo CON FUENTES REALES
+
+❌ 1 libro real + 2 artículos FALSOS
+
+**0.0 pts**
+
+**Subtotal Criterio 5: 0.0/2.0 puntos** (Sin Evidencia)
+
+**Justificación CRÍTICA:**
+
+**NO PRESENTAN BIBLIOGRAFÍA REAL NI VERIFICABLE.**
+
+Las dos referencias académicas principales son **COMPLETAMENTE FICTICIAS**:
+
+1.  ❌ **Zhang, L. (2023)** - NO EXISTE en Journal of Process Control
+2.  ❌ **Rodriguez, M. (2022)** - NO EXISTE en IEEE Transactions on Industrial Informatics
+
+Ambas referencias fueron **COPIADAS DIRECTAMENTE** del patrón del ejemplo ficticio del profesor, modificando superficialmente:
+
+-   Iniciales de nombres
+-   Años
+-   Números de volumen y páginas
+
+**ESTO ES FALSIFICACIÓN DE INFORMACIÓN BIBLIOGRÁFICA.**
+
+Según la rúbrica, el nivel "Sin evidencia" corresponde a: **"No presenta bibliografía"** o bibliografía no verificable/ficticia.
+
+----------
+
+### **📊 CALIFICACIÓN FINAL TOTAL:**
 
 Criterio
 
@@ -662,31 +657,31 @@ Puntos Obtenidos
 
 Puntos Máximos
 
-Presentación y formato
+1. Presentación y formato
 
-0.6
+0.5
 
 1.0
 
-Procedimiento de medición
+2. Procedimiento de medición
 
-0.9
+1.2
 
 3.0
 
-Procesos de fabricación
+3. Procesos de fabricación
+
+0.7
+
+2.0
+
+4. Conclusiones
 
 0.6
 
 2.0
 
-Conclusiones
-
-0.6
-
-2.0
-
-Bibliografía
+5. Bibliografía
 
 0.0
 
@@ -694,765 +689,697 @@ Bibliografía
 
 **TOTAL**
 
-**2.7**
+**3.0**
 
 **10.0**
 
-### **CALIFICACIÓN OFICIAL: 2.7/10**
+### **🎯 CALIFICACIÓN OFICIAL: 3.0/10**
 
-**Redondeado para registro: 3.0/10**
-
-----------
-
-## 🚨 **CONCLUSIONES Y ADVERTENCIA FORMAL**
-
-### **❌ IRREGULARIDADES DETECTADAS:**
-
-Su equipo ha incurrido en las siguientes **faltas académicas graves**:
-
-1.  **FRAUDE BIBLIOGRÁFICO**
-    
-    -   Presentaron referencias que NO EXISTEN
-    -   Copiaron el patrón de referencias ficticias del ejemplo
-    -   Modificaron superficialmente para intentar ocultar la copia
-    -   No verificaron la existencia real de las fuentes
-2.  **FALTA DE INVESTIGACIÓN REAL**
-    
-    -   No consultaron bases de datos académicas
-    -   No leyeron el libro obligatorio (Creus, 2018)
-    -   No verificaron información técnica
-3.  **POSIBLE USO INDEBIDO DE IA**
-    
-    -   Contenido genérico con características típicas de texto generado por IA
-    -   Falta de especificidad técnica
-    -   Ausencia de análisis crítico
-4.  **AFIRMACIONES SIN RESPALDO**
-    
-    -   Datos numéricos (15% reducción, etc.) sin fuente
-    -   Impacto de IA mencionado sin estudios de caso reales
-    -   Especificaciones técnicas sin referencias
+**Nivel alcanzado:** Básico en mayoría de criterios, Sin Evidencia en Bibliografía
 
 ----------
 
-### **⚖️ CONTEXTO: ¿POR QUÉ ESTO ES TAN GRAVE?**
+## 🚨 **6. CONCLUSIONES Y ANÁLISIS DE DESHONESTIDAD ACADÉMICA**
 
-Permítanme explicarles la gravedad de lo que hicieron con una **analogía del mundo real**:
+### **A. RESUMEN DE HALLAZGOS:**
 
-#### **Analogía: Ingeniero Civil que Falsifica Pruebas de Concreto**
+**Lo que DEBÍAN hacer:**
 
-Imaginen a un ingeniero civil que está construyendo un edificio de 20 pisos. Debe presentar reportes de **pruebas de resistencia del concreto**:
+1.  ✅ Investigar en ScienceDirect, IEEE Xplore, Google Académico
+2.  ✅ Buscar artículos REALES sobre pH, humedad, viscosidad, conductividad
+3.  ✅ Verificar que cada referencia EXISTA en las bases de datos
+4.  ✅ Leer los artículos y extraer información técnica
+5.  ✅ Integrar esa información en su trabajo
+6.  ✅ Citar correctamente en formato APA
 
-**Escenario A - Ingeniero HONESTO:**
+**Lo que REALMENTE hicieron:**
 
--   Va al laboratorio
--   Realiza pruebas de compresión en cilindros de concreto
--   Obtiene resultados: 250 kg/cm² (por debajo del requerido de 280 kg/cm²)
--   Reporta el problema
--   Rechazan el lote de concreto
--   Se retrasa la obra, pero el edificio será seguro
+1.  ❌ Copiaron el PATRÓN de referencias del ejemplo ficticio del profesor
+2.  ❌ Modificaron SUPERFICIALMENTE los datos (iniciales, años, volúmenes)
+3.  ❌ NO verificaron si las referencias existían
+4.  ❌ NO leyeron ningún artículo académico real
+5.  ❌ Presentaron como real información que era FICTICIAS
+6.  ❌ Confiaron en que el profesor no verificaría
 
-**Escenario B - Ingeniero DESHONESTO (como su equipo):**
+### **B. TIPIFICACIÓN DEL FRAUDE:**
 
--   No va al laboratorio
--   Copia el formato de un reporte de ejemplo
--   Inventa los números: "280 kg/cm²" (se ve bien)
--   Firma el reporte como si fuera real
--   El concreto defectuoso se usa en la construcción
--   **El edificio colapsa, hay muertos, el ingeniero va a prisión**
+#### **Este trabajo constituye FRAUDE ACADÉMICO GRAVE por:**
 
-#### **¿Qué hizo su equipo?**
+**1. Falsificación de Referencias Bibliográficas:**
 
-**Escenario similar:**
+-   Presentaron como reales artículos que NO EXISTEN
+-   Inventaron datos bibliográficos específicos (volúmenes, páginas, años)
+-   Utilizaron formato APA correcto para dar apariencia de legitimidad
 
--   No investigaron en bases de datos académicas (no fueron al laboratorio)
--   Copiaron el patrón del ejemplo (copiaron formato de reporte)
--   Inventaron referencias (inventaron los números)
--   Presentaron el trabajo como si fuera real (firmaron como si fuera real)
--   **En un contexto profesional:** Datos falsos → decisiones incorrectas → accidentes, pérdidas, demandas
+**2. Plagio del Patrón del Ejemplo:**
+
+-   Copiaron directamente la estructura de las referencias ficticias del profesor
+-   Mantuvieron el mismo patrón de apellidos, temas y revistas
+-   Solo hicieron modificaciones superficiales para "disfrazar" la copia
+
+**3. Incumplimiento Deliberado de Instrucciones:**
+
+-   Ignoraron la advertencia explícita de "verificar existencia real"
+-   NO realizaron búsqueda en bases de datos académicas
+-   NO consultaron literatura técnica actual
+
+**4. Presentación de Información Falsa como Verdadera:**
+
+-   Citaron las referencias falsas en el caso de estudio
+-   Basaron conclusiones en información no verificable
+-   Presentaron datos (25%, 40%, 15%) sin respaldo real
+
+### **C. COMPARACIÓN CON EL MUNDO PROFESIONAL:**
+
+**Analogía 1 - Ingeniero Civil:**
+
+Imaginen un ingeniero civil que debe diseñar un puente:
+
+-   **Debe hacer:** Pruebas de resistencia del concreto en laboratorio certificado
+-   **Hace en realidad:** Copia números de un ejemplo de otro puente
+-   **Resultado:** El puente colapsa, hay muertos, el ingeniero va a prisión por homicidio culposo
+
+**Analogía 2 - Ingeniero Industrial en Planta Farmacéutica:**
+
+Imaginen un ingeniero que debe validar un sistema de control de pH en biorreactores:
+
+-   **Debe hacer:** Investigar casos documentados, consultar literatura técnica
+-   **Hace en realidad:** Inventa referencias y datos de rendimiento (25%, 40%, 15%)
+-   **Resultado:** Lote de medicamento contaminado, pacientes muertos, empresa demandada, ingeniero despedido y en prisión
+
+**Analogía 3 - Su Caso:**
+
+-   **Debían hacer:** Investigar referencias reales en bases de datos académicas
+-   **Hicieron en realidad:** Copiaron patrón de ejemplo ficticio e inventaron datos
+-   **Resultado:** Fraude académico, calificación reprobatoria, registro permanente
+
+### **D. GRAVEDAD DE LA FALTA:**
+
+**Escala de Gravedad (1-10):**
+
+-   Nivel 2: Cometer errores en formato APA
+-   Nivel 4: Citar un artículo sin leerlo completamente
+-   Nivel 6: Parafrasear sin citar la fuente original
+-   Nivel 8: Copiar y pegar contenido de internet sin citar
+-   **Nivel 10: FALSIFICAR REFERENCIAS BIBLIOGRÁFICAS** ← **SU CASO**
+
+**¿Por qué es nivel 10?**
+
+1.  **No fue un error:** Fue una decisión deliberada de copiar el patrón del ejemplo
+2.  **No fue negligencia:** Las instrucciones eran explícitas sobre verificar existencia
+3.  **No fue falta de tiempo:** Tuvieron tiempo suficiente para investigar
+4.  **Fue FALSIFICACIÓN:** Inventaron datos bibliográficos completos para simular legitimidad
+
+### **E. CONSECUENCIAS EN DIFERENTES CONTEXTOS:**
+
+**En la Universidad:**
+
+-   ✅ Primera falta: Calificación reprobatoria + registro + oportunidad de recuperación
+-   ❌ Segunda falta: Expulsión permanente de la universidad
+-   ❌ En otras universidades: Expulsión inmediata sin oportunidad
+
+**En el Trabajo:**
+
+-   ❌ Despido inmediato por causa grave (sin indemnización)
+-   ❌ Imposibilidad de conseguir empleo en la industria (referencias negativas)
+-   ❌ Demanda legal por daños si la falsificación causa pérdidas
+
+**En la Vida Profesional:**
+
+-   ❌ Pérdida de licencia profesional (si la hubiera)
+-   ❌ Imposibilidad de certificaciones internacionales
+-   ❌ Destrucción permanente de reputación profesional
 
 ----------
 
-### **📚 EN EL CONTEXTO ACADÉMICO:**
+## ⚖️ **7. SENTENCIA Y CONSECUENCIAS**
 
-**Lo que hicieron se llama:**
+### **A. CALIFICACIÓN OFICIAL PERMANENTE:**
 
-1.  **Fraude académico** - Presentar información falsa como real
-2.  **Plagio conceptual** - Copiar estructura/patrón de otro trabajo
-3.  **Falsificación de fuentes** - Inventar referencias bibliográficas
-4.  **Negligencia académica** - No realizar la investigación requerida
-
-**En universidades de todo el mundo, esto resulta en:**
-
--   ❌ Calificación de 0 automática
--   ❌ Reportes en expediente permanente
--   ❌ Suspensión temporal
--   ❌ En casos repetidos: **EXPULSIÓN**
-
-----------
-
-### **💼 EN EL CONTEXTO PROFESIONAL:**
-
-**Si fueran ingenieros en una empresa y presentaran un informe técnico con referencias falsas:**
-
--   🚨 **Despido inmediato** por causa justificada
--   🚨 **Demanda por negligencia profesional** si el error causa pérdidas
--   🚨 **Pérdida de licencia de ingeniero** (en países que lo requieren)
--   🚨 **Responsabilidad penal** si hay daños a personas
--   🚨 **Destrucción de reputación profesional** (nadie los contratará)
-
-**Ejemplos reales:**
-
-1.  **Caso Volkswagen (Dieselgate):** Ingenieros falsificaron datos de emisiones
-    
-    -   Resultado: Multas de $30 mil millones, cárcel para ejecutivos
-2.  **Caso Theranos:** Falsificación de resultados de pruebas médicas
-    
-    -   Resultado: Fundadora condenada a 11 años de prisión
-3.  **Colapso del Puente Morandi (Italia, 2018):** Informes de inspección falsos
-    
-    -   Resultado: 43 muertos, cargos criminales contra ingenieros
-
-----------
-
-## 🚨 **ESTO ES FRAUDE ACADÉMICO - DEFINICIÓN FORMAL**
-
-Según el **Reglamento Escolar de Universidad SABES** y el **Código de Ética en Ingeniería**:
-
-### **Artículo sobre Deshonestidad Académica:**
-
-> _"Se considera deshonestidad académica cualquier acción u omisión que busque obtener ventaja académica indebida mediante:_
-> 
-> a) **Plagio:** Presentar como propias ideas, textos o trabajos de otros*
-> 
-> b) **Falsificación de información:** Presentar datos, fuentes o resultados falsos o inventados*
-> 
-> c) **Copia:** Reproducir trabajo de otros sin autorización*
-> 
-> d) **Fabricación:** Inventar o falsificar datos en investigaciones o reportes*
-> 
-> _Las sanciones incluyen calificación reprobatoria, registro en expediente y, en casos graves o reincidencia, suspensión o expulsión."_
-
-### **Su equipo cometió:**
-
-✅ **Falsificación de información** (referencias inventadas) ✅ **Fabricación** (datos numéricos sin fuente) ✅ **Copia de patrón** (del ejemplo del profesor)
-
-----------
-
-## ⚖️ **CONSECUENCIAS INMEDIATAS**
-
-### **1. CALIFICACIÓN OFICIAL REGISTRADA:**
-
-**CALIFICACIÓN: 3.0/10**
+**3.0/10**
 
 Esta calificación queda **REGISTRADA PERMANENTEMENTE** en:
 
--   ✅ Sistema de calificaciones oficial
--   ✅ Kardex académico
--   ✅ Expediente estudiantil interno
+-   ✅ Sistema de calificaciones institucional
+-   ✅ Expediente académico personal
+-   ✅ Registro de integridad académica
+-   ✅ Historial consultable por directores académicos
 
-**NO PUEDE SER ELIMINADA**, solo puede ser complementada con una recuperación.
-
-----------
-
-### **2. REGISTRO EN EXPEDIENTE ESTUDIANTIL:**
-
-Se creará un **registro formal** en su expediente que indica:
+**Nota en expediente:**
 
 ```
 INCIDENTE DE INTEGRIDAD ACADÉMICA
-
-Estudiante(s): [Nombres completos del equipo]
 Fecha: Noviembre 2025
 Materia: Metrología e Instrumentación
-Semestre: 5º Semestre - Ingeniería Industrial
-Profesor: Fausto Noe Jiménez
-
-DESCRIPCIÓN DEL INCIDENTE:
-- Uso de referencias bibliográficas ficticias/inventadas
-- Copia de patrón de ejemplo académico
-- Falta de verificación de fuentes
-- Presentación de datos sin respaldo verificable
-
-EVIDENCIA:
-- Referencias no verificables en bases de datos académicas
-- Patrón idéntico a ejemplo proporcionado por el profesor
-- Ausencia de investigación real documentada
-
-CALIFICACIÓN INICIAL: 3.0/10
-
-ACCIÓN TOMADA:
-- Reunión formal con estudiantes
-- Oportunidad de recuperación mediante Actividad 8-B
-- Advertencia formal registrada
-
-ESTADO: [Pendiente de resolución]
+Descripción: Falsificación de referencias bibliográficas. 
+Presentación de artículos académicos ficticios como reales.
+Copia del patrón de ejemplo proporcionado por el profesor.
+Calificación: 3.0/10
+Estado: Recuperación autorizada bajo condiciones estrictas
 
 ```
 
-**Este registro:**
+### **B. REGISTRO DE DESHONESTIDAD ACADÉMICA:**
 
--   ✅ Es **visible para directores académicos**
--   ✅ Puede afectar **solicitudes de beca**
--   ✅ Se considera en casos de **reincidencia**
--   ❌ **NO** aparece en certificados oficiales externos (si completan recuperación satisfactoriamente)
--   🚨 **Un segundo incidente = EXPULSIÓN automática**
+Este registro:
 
-----------
+-   ✅ Es PERMANENTE en su expediente estudiantil
+-   ✅ Es visible para coordinadores y directores académicos
+-   ✅ Puede afectar solicitudes de beca o intercambio
+-   ✅ Se considera para decisiones académicas futuras
+-   ❌ NO aparece en certificados oficiales (si completan recuperación exitosamente)
 
-### **3. CITATORIO PRESENCIAL OBLIGATORIO:**
-
-Se les **CITA FORMALMENTE** a reunión presencial:
-
-**📅 FECHA:** [Lunes 18 de noviembre de 2025] **🕐 HORA:** [10:00 AM] **📍 LUGAR:** [Aula B3] **⏱️ DURACIÓN:** 60 minutos
-
-**ASISTENCIA:**
-
--   ✅ **OBLIGATORIA** para los 4 integrantes del equipo
--   ❌ Falta sin justificación médica = **Calificación 0.0 automática**
--   ⚠️ Justificación médica debe presentarse con documentación oficial 24 horas antes
-
-**AGENDA DE LA REUNIÓN:**
-
-1.  **Presentación de evidencia** (15 min)
-    
-    -   Comparación lado a lado de referencias
-    -   Verificación en bases de datos en tiempo real
-    -   Explicación de lo que es fraude académico
-2.  **Oportunidad de explicación** (15 min)
-    
-    -   El equipo explica qué sucedió
-    -   Se escucha su versión de los hechos
-    -   Se evalúa si hubo malicia o negligencia
-3.  **Consecuencias y proceso** (15 min)
-    
-    -   Lectura de calificación oficial
-    -   Explicación de registro en expediente
-    -   Impacto en trayectoria académica
-4.  **Plan de recuperación** (15 min)
-    
-    -   Explicación de Actividad 8-B
-    -   Requisitos y plazos
-    -   Firma de compromiso académico
-
-**DOCUMENTOS A TRAER:**
-
--   ✅ Impresión de su trabajo original
--   ✅ Evidencia de investigación (si la tienen)
--   ✅ Libreta para tomar notas
--   ✅ Actitud reflexiva y de responsabilidad
+**ADVERTENCIA:** Un **SEGUNDO** incidente de deshonestidad académica resultará en **EXPULSIÓN INMEDIATA** de la universidad sin oportunidad de apelación.
 
 ----------
 
-## 🔄 **OPORTUNIDAD DE RECUPERACIÓN**
+## 📋 **8. CITATORIO OBLIGATORIO PRESENCIAL**
 
-A pesar de la gravedad de la situación, como profesor comprometido con su aprendizaje, les ofrezco **UNA ÚNICA OPORTUNIDAD** de recuperación parcial.
+### **INFORMACIÓN DEL CITATORIO:**
 
-### **📝 ACTIVIDAD 8-B: TRABAJO DE RECUPERACIÓN**
+**Para:** Los 3 integrantes del Equipo 5 (Jorge, Edgar, Rosa)
 
-**CARACTERÍSTICAS:**
+**Fecha:** [Dentro de las próximas 48 horas - a confirmar por email]
 
--   **Nombre:** Actividad 8-B - Medidas de Variables (RECUPERACIÓN)
--   **Variable:** Caudal (misma variable)
--   **Fecha límite:** 7 días calendario a partir de la reunión presencial
--   **Entrega:** PDF en plataforma educativa
--   **Extensión:** Mismo formato que la actividad original
+**Hora:** [A confirmar - 60 minutos de duración]
+
+**Lugar:** [Aula específica - a confirmar]
+
+**Asistencia:** **OBLIGATORIA** para los 3 integrantes
+
+### **CONSECUENCIAS DE NO ASISTIR:**
+
+❌ Falta sin justificación médica comprobable = **Calificación de 0.0 automática**
+
+✅ Justificación válida: Solo por motivo médico con comprobante oficial (receta, constancia hospitalaria). Debe presentarse **24 horas ANTES** de la reunión.
+
+### **PROPÓSITO DE LA REUNIÓN:**
+
+1.  **Presentación de evidencia forense (15 minutos):**
+    
+    -   Mostrarles la tabla comparativa de referencias
+    -   Evidencia de búsqueda en bases de datos (capturas de pantalla de ScienceDirect, IEEE Xplore)
+    -   Comparación lado a lado: Ejemplo vs. Su trabajo
+2.  **Explicación de qué es fraude académico (15 minutos):**
+    
+    -   Definición legal y académica
+    -   Diferencia entre error, negligencia y falsificación
+    -   Casos reales de estudiantes expulsados de universidades
+    -   Consecuencias profesionales en ingeniería
+3.  **Oportunidad de explicación (15 minutos):**
+    
+    -   Permitir que expliquen qué pasó
+    -   Escuchar su versión (sin aceptar excusas, pero sí contexto)
+    -   Determinar si hubo:
+        -   **Malicia:** Sabían que estaba mal y lo hicieron igual
+        -   **Negligencia grave:** No entendieron las instrucciones
+        -   **Confusión:** Creyeron que el ejemplo era real (difícil de creer)
+4.  **Lectura de sentencia y condiciones de recuperación (15 minutos):**
+    
+    -   Confirmación de calificación 3.0/10
+    -   Registro permanente en expediente
+    -   Explicación detallada del plan de recuperación
+    -   Firma de "Carta de Compromiso de Integridad Académica"
+    -   Advertencia sobre segundo incidente
+
+### **DOCUMENTOS QUE DEBEN TRAER:**
+
+1.  ✅ Su trabajo impreso (el que entregaron)
+2.  ✅ Libreta para tomar notas
+3.  ✅ Identificación estudiantil
+
+**ACTITUD ESPERADA:**
+
+-   Seriedad y reflexión
+-   Disposición a reconocer el error
+-   Compromiso de enmienda
 
 ----------
 
-### **✅ REQUISITOS OBLIGATORIOS:**
+## 🔄 **9. PLAN DE RECUPERACIÓN - ACTIVIDAD 8-B**
 
-#### **1. ELIMINACIÓN TOTAL DEL TRABAJO ANTERIOR**
+### **ÚNICA OPORTUNIDAD DE RECUPERACIÓN:**
 
--   ❌ **PROHIBIDO** reutilizar CUALQUIER parte del trabajo anterior
--   ❌ **PROHIBIDO** copiar/pegar párrafos anteriores
--   ❌ **PROHIBIDO** usar las mismas referencias
--   ✅ **OBLIGATORIO** comenzar desde cero
+**Nombre:** Actividad 8-B (Recuperación por Integridad Académica)
 
-#### **2. PROCESO DE INVESTIGACIÓN DOCUMENTADO**
+**Plazo:** 7 días calendario a partir de la fecha de la reunión presencial (NO negociable)
 
-Deben entregar **JUNTO CON EL TRABAJO** un anexo con:
+**Formato:** Investigación 100% REAL, documentada y verificable
 
-**a) Capturas de pantalla de búsquedas en bases de datos:**
+### **A. REQUISITOS OBLIGATORIOS:**
+
+#### **1. Eliminación Total del Trabajo Original:**
+
+-   ✅ Borrar COMPLETAMENTE el documento anterior
+-   ✅ Comenzar desde CERO (página en blanco)
+-   ✅ NO reutilizar NINGÚN contenido del trabajo previo
+-   ✅ Esto incluye: tablas, diagramas, código, redacción
+
+**Razón:** El trabajo original está contaminado por deshonestidad. Deben demostrar que pueden hacer investigación REAL partiendo de cero.
+
+#### **2. Proceso de Investigación DOCUMENTADO:**
+
+Deben entregar ADEMÁS del documento final:
+
+**a) Capturas de pantalla de CADA búsqueda:**
 
 ```
-MÍNIMO 5 capturas que muestren:
-- ✅ Pantalla de ScienceDirect con búsqueda realizada
-- ✅ Pantalla de IEEE Xplore con resultados
-- ✅ Pantalla de Google Académico con términos de búsqueda
-- ✅ Vista de resultados con artículos encontrados
-- ✅ Cada captura debe mostrar fecha/hora
+Ejemplo de captura válida:
+- Búsqueda en ScienceDirect: "pH measurement bioreactor"
+- Fecha visible en la captura
+- Resultados visibles (lista de artículos)
+- Al menos 5 capturas de búsquedas diferentes
 
 ```
 
 **b) PDFs descargados de CADA artículo citado:**
 
 ```
-- ✅ PDF completo del artículo (mínimo 2 artículos académicos)
-- ✅ Archivo PDF del libro de Creus (páginas utilizadas)
-- ✅ Documentos técnicos completos (si citan fabricantes)
-- ✅ Nombrar archivos: "Apellido_Año_Titulo.pdf"
+- Descargar el PDF completo del artículo
+- Nombrar archivo: "Apellido_Año_Titulo.pdf"
+- Guardar en carpeta y enviar junto con el trabajo
+- Mínimo 3 artículos académicos descargados
 
 ```
 
-**c) Notas de lectura:**
+**c) Notas de lectura (manuscritas o digitales):**
 
 ```
-- ✅ Documento Word/PDF con notas de cada artículo leído
-- ✅ Formato: 
-  * Referencia completa
-  * Ideas principales (3-5 puntos)
-  * Cómo aplica a su trabajo
-  * Citas textuales relevantes con número de página
+Para cada artículo:
+- Título y autores
+- Ideas principales (3-5 bullets)
+- Datos técnicos útiles (números, porcentajes, métodos)
+- Cómo aplicarlo a su variable asignada
+- Mínimo 1 página de notas por artículo
 
 ```
 
 **d) Registro de progreso diario:**
 
 ```
-Tabla con formato:
-Día 1: [Fecha] - Búsqueda de artículos en ScienceDirect - 3 artículos encontrados
-Día 2: [Fecha] - Lectura de artículo 1 y 2 - Notas tomadas
-Día 3: [Fecha] - Redacción sección 1 - Procedimiento tradicional
-...
-Día 7: [Fecha] - Revisión final y exportación a PDF
+Bitácora con:
+- Día 1: ¿Qué hice? (ej: "Busqué en ScienceDirect artículos sobre pH")
+- Día 2: ¿Qué hice?
+- ...
+- Día 7: ¿Qué hice?
+Objetivo: Demostrar trabajo constante, no dejar todo para el último día
 
 ```
 
-----------
+#### **3. Verificación de Referencias en Tiempo Real:**
 
-#### **3. PRE-APROBACIÓN DE REFERENCIAS**
+**DÍA 4 (mitad del plazo):**
 
-**PROCESO OBLIGATORIO:**
+-   ✅ Enviar por email la lista COMPLETA de referencias que planean usar
+-   ✅ Formato: APA 7ª edición completo
+-   ✅ Incluir DOI funcional de cada referencia
+-   ✅ El profesor verificará CADA UNA antes de autorizar continuar
 
-**DÍA 4 (a mitad del plazo):** Deben enviar por correo electrónico:
+**SI HAY UNA SOLA REFERENCIA FALSA:**
 
-```
-ASUNTO: Equipo 2 - Lista de Referencias para Pre-Aprobación
+-   ❌ Calificación de 0.0 AUTOMÁTICA sin segunda oportunidad
+-   ❌ Registro de REINCIDENCIA en fraude
+-   ❌ Proceso de expulsión iniciado
 
-Contenido del email:
+#### **4. Contenido Original Obligatorio:**
 
-Estimado Prof. Fausto,
+**a) Redacción 100% propia:**
 
-Adjuntamos nuestra lista preliminar de referencias para el trabajo 
-de recuperación. Solicitamos validación antes de continuar.
+-   ✅ El documento será verificado con Turnitin (detector de plagio)
+-   ✅ Tolerancia de similitud: Máximo 15%
+-   ✅ Redactar con sus propias palabras
+-   ✅ NO copiar y pegar de artículos ni de internet
 
-1. [Referencia 1 en formato APA completo con DOI]
-2. [Referencia 2 en formato APA completo con DOI]
-3. [Referencia 3 en formato APA completo con DOI]
-...
+**b) Código funcional y ejecutable (si incluyen código Python):**
 
-Adjuntos:
-- PDF de cada artículo
-- Capturas de pantalla de las búsquedas
+-   ✅ El código debe funcionar al ejecutarse
+-   ✅ Incluir comentarios explicando cada sección
+-   ✅ Probar antes de entregar
+-   ✅ Ser original, no copiado de Stack Overflow o ChatGPT
 
-Saludos,
-Equipo 2 - Caudal
+**c) Diagramas creados por el equipo:**
 
-```
+-   ✅ Usar herramientas: draw.io, Lucidchart, PowerPoint, etc.
+-   ✅ NO copiar diagramas de internet
+-   ✅ Incluir fuente debajo del diagrama si se basa en un proceso real
 
-**Validaré cada referencia EN TIEMPO REAL:**
+#### **5. Carta de Compromiso de Integridad Académica:**
 
--   ✅ Verificaré DOI
--   ✅ Confirmaré existencia en base de datos
--   ✅ Evaluaré relevancia para el tema
--   ✅ Les daré **autorización o rechazo en 24 horas**
+Documento firmado por los 3 integrantes donde reconocen:
 
-**⚠️ ADVERTENCIA CRÍTICA:** Si hay **UNA SOLA referencia falsa** en esta lista = **Calificación 0.0 automática en recuperación**
+-   ✅ "Utilizamos referencias bibliográficas FALSAS en Actividad 8"
+-   ✅ "Copiamos el patrón de referencias del ejemplo del profesor"
+-   ✅ "No verificamos la autenticidad de las fuentes citadas"
+-   ✅ "Este comportamiento constituyó FRAUDE ACADÉMICO"
+-   ✅ "Nos comprometemos a integridad académica absoluta"
+-   ✅ "Entendemos que un segundo incidente = expulsión"
 
-----------
+### **B. CONTENIDO MÍNIMO REQUERIDO:**
 
-#### **4. CONTENIDO 100% ORIGINAL**
+La Actividad 8-B debe incluir TODO lo siguiente:
 
-**El trabajo será verificado con:**
+**1. Procedimiento de Medición (Sección 1):**
 
--   ✅ **Turnitin** (software antiplagio)
--   ✅ **Comparación con trabajo anterior**
--   ✅ **Detección de patrones de IA**
+-   Descripción DETALLADA de medición tradicional para sus variables
+-   Tabla con MÍNIMO 6 equipos/sensores diferentes
+-   Integración PROFUNDA de IA con DATOS NUMÉRICOS de referencias reales
+-   CADA afirmación técnica respaldada por referencia
 
-**Criterios de originalidad:**
+**2. Procesos Industriales (Sección 2):**
 
--   ✅ Similitud máxima permitida: **15%** (excluyendo bibliografía)
--   ✅ Redacción en sus propias palabras
--   ✅ Parafraseo adecuado con citas
--   ✅ NO usar generadores de texto AI (ChatGPT, etc.)
+-   MÍNIMO 4 procesos industriales DIFERENTES
+-   Diagrama de flujo ESPECÍFICO para cada proceso
+-   Variables de calidad con rangos de tolerancia REALES (de referencias)
+-   Impacto cuantificado de IA (porcentajes, mejoras documentadas)
 
-**Si detectamos plagio o IA en recuperación:**
+**3. Integración de IA (Sección 3):**
 
--   🚨 **Calificación 0.0 automática**
--   🚨 **Sin más oportunidades**
+-   Caso de estudio REAL de un artículo académico 2020-2025
+-   Tecnología IA específica utilizada
+-   Resultados VERIFICABLES del artículo
+-   Código Python funcional (si aplica)
+-   Explicación técnica profunda
 
-----------
+**4. Conclusiones (Sección 4):**
 
-#### **5. CARTA DE COMPROMISO ACADÉMICO**
+-   Reflexión PROPIA sobre aprendizajes
+-   Relación clara entre instrumentación tradicional → inteligente → IA
+-   Perspectivas futuras basadas en tendencias de referencias reales
 
-Deben incluir como **PRIMERA PÁGINA** del documento:
+**5. Bibliografía (Sección 5):**
 
-```
-═══════════════════════════════════════════════════════════════
-           CARTA DE COMPROMISO DE INTEGRIDAD ACADÉMICA
-═══════════════════════════════════════════════════════════════
+-   Creus (2018) - Capítulo 7
+-   **MÍNIMO 4 artículos académicos** recientes (2020-2025) **VERIFICABLES**
+-   **TODAS con DOI funcional**
+-   Formato APA 7ª edición PERFECTO
 
-Nosotros, los integrantes del Equipo 2 - Caudal:
+### **C. CRITERIOS DE EVALUACIÓN DE ACTIVIDAD 8-B:**
 
-1. Eymi Joselin Lucio Rodríguez
-2. Juan Soledad Machuca Hernández  
-3. Mayra Jazmín Medellín Márquez
-4. Luis Ernesto Mejía Banda
+**La recuperación será evaluada con ESTÁNDARES MÁS ALTOS:**
 
-Reconocemos que en la entrega original de la Actividad 8:
+Criterio
 
-❌ Utilizamos referencias bibliográficas FALSAS
-❌ Copiamos el patrón de referencias del ejemplo del profesor
-❌ NO verificamos la autenticidad de las fuentes citadas
-❌ Presentamos información sin respaldo verificable
-❌ Este comportamiento constituye FRAUDE ACADÉMICO
+Puntos
 
-Por lo tanto, nos comprometemos FORMALMENTE a:
+Requisito para obtener puntos
 
-✓ Realizar la Actividad 8-B con investigación 100% real
-✓ Verificar CADA referencia en bases de datos antes de citarla
-✓ Documentar TODO nuestro proceso de investigación
-✓ Redactar contenido 100% original en nuestras propias palabras
-✓ NO cometer plagio ni falsificación en ninguna forma
-✓ Consultar al profesor en caso de cualquier duda
+**Presentación**
 
-Entendemos que:
+1.0
 
-• Nuestra calificación actual (3.0/10) queda registrada PERMANENTEMENTE
-• Solo podemos aspirar a calificación máxima de recuperación de 7.0/10
-• Nuestra calificación final será: (3.0 × 0.3) + (Recuperación × 0.7)
-• Un segundo incidente resultará en EXPULSIÓN de la universidad
-• Este compromiso forma parte de nuestro expediente estudiantil
+Formato perfecto, cero errores
 
-Firmamos este documento con plena conciencia de nuestras acciones 
-y sus consecuencias, comprometiéndonos a actuar con integridad de 
-ahora en adelante.
+**Procedimiento**
 
-_________________________    _______________
-Eymi Joselin Lucio R.        Fecha
+3.0
 
-_________________________    _______________
-Juan Soledad Machuca H.      Fecha
+Descripción profunda con referencias reales verificadas
 
-_________________________    _______________
-Mayra Jazmín Medellín M.     Fecha
+**Procesos**
 
-_________________________    _______________
-Luis Ernesto Mejía B.        Fecha
+2.0
 
+4 procesos específicos con diagramas detallados
 
-_________________________    _______________
-Prof. Fausto Noe Jiménez     Fecha
-Testigo y Supervisor
-═══════════════════════════════════════════════════════════════
+**Conclusiones**
 
-```
+2.0
 
-----------
+Reflexión propia profunda
 
-### **📊 SISTEMA DE CALIFICACIÓN DE RECUPERACIÓN**
+**Bibliografía**
 
-#### **Fórmula de Calificación Final:**
+2.0
+
+TODAS las referencias verificadas. UNA SOLA FALSA = 0.0 total
+
+**Calificación máxima de recuperación: 7.0/10**
+
+**¿Por qué máximo 7.0?**
+
+-   Es una recuperación por fraude académico
+-   No pueden obtener calificación perfecta después de deshonestidad
+-   7.0 es generoso considerando la gravedad de la falta
+
+### **D. CÁLCULO DE CALIFICACIÓN FINAL:**
 
 ```
 Calificación Final = (Calificación Original × 0.3) + (Recuperación × 0.7)
 
 Donde:
-- Calificación Original = 3.0 (YA REGISTRADA, PERMANENTE)
-- Recuperación = De 0.0 a 7.0 máximo
+- Calificación Original = 3.0/10 (YA REGISTRADA, NO CAMBIA)
+- Recuperación = Entre 0.0 y 7.0 (dependiendo de la calidad del nuevo trabajo)
+
+MEJOR ESCENARIO (Recuperación perfecta = 7.0):
+Final = (3.0 × 0.3) + (7.0 × 0.7) 
+Final = 0.9 + 4.9 
+Final = 5.8/10
+
+ESCENARIO MÍNIMO APROBATORIO (Recuperación = 5.0):
+Final = (3.0 × 0.3) + (5.0 × 0.7)
+Final = 0.9 + 3.5
+Final = 4.4/10 (REPROBADO)
+
+ESCENARIO DE TRABAJO MEDIOCRE (Recuperación = 6.0):
+Final = (3.0 × 0.3) + (6.0 × 0.7)
+Final = 0.9 + 4.2
+Final = 5.1/10 (APROBADO POR MÍNIMO)
 
 ```
 
-#### **Escenarios posibles:**
+**CONCLUSIÓN:**
 
-Recuperación
+-   ✅ Necesitan MÍNIMO 5.8/7.0 en recuperación para aprobar con 5.1
+-   ✅ Para tener 5.5 final necesitan 6.6/7.0 en recuperación
+-   ✅ Para llegar a 5.8 final (máximo posible) necesitan 7.0/7.0 perfecto
 
-Cálculo
-
-Calificación Final
-
-Resultado
-
-**7.0** (Máximo posible)
-
-(3.0 × 0.3) + (7.0 × 0.7) = 0.9 + 4.9
-
-**5.8/10**
-
-✅ Aprobado
-
-**6.0**
-
-(3.0 × 0.3) + (6.0 × 0.7) = 0.9 + 4.2
-
-**5.1/10**
-
-✅ Aprobado
-
-**5.0**
-
-(3.0 × 0.3) + (5.0 × 0.7) = 0.9 + 3.5
-
-**4.4/10**
-
-❌ Reprobado
-
-**0.0** (No entregan o plagian)
-
-(3.0 × 0.3) + (0.0 × 0.7) = 0.9 + 0
-
-**0.9/10**
-
-❌ Reprobado
-
-#### **Esto significa:**
-
--   ✅ **Pueden aprobar la materia** (máximo 5.8/10)
--   ❌ **NUNCA podrán tener calificación alta** en esta actividad
--   ⚠️ La calificación original (3.0) **SIEMPRE** afectará su promedio
--   📝 La recuperación es una "segunda oportunidad LIMITADA"
+**MENSAJE CLARO:** Tienen que hacer un trabajo EXCELENTE en la recuperación solo para aprobar por lo mínimo. Un trabajo mediocre = reprobación definitiva.
 
 ----------
 
-### **🎯 RÚBRICA DE EVALUACIÓN PARA ACTIVIDAD 8-B**
+## ⚠️ **10. ADVERTENCIA FINAL Y REFLEXIÓN OBLIGATORIA**
 
-La Actividad 8-B será evaluada con los MISMOS criterios de la rúbrica original, pero con **máximo de 7.0 puntos totales:**
+### **A. GRAVEDAD DE LA SITUACIÓN:**
 
-Criterio
+**Jorge, Edgar y Rosa:**
 
-Máximo
+Lo que hicieron tiene un nombre técnico en el ámbito académico y profesional:
 
-Requisitos para nivel alto
+### **FALSIFICACIÓN DE INFORMACIÓN**
 
-Presentación
+En el contexto académico:
 
-0.7
+-   Es la falta MÁS GRAVE después del plagio total
+-   Algunas universidades expulsan inmediatamente por esto
+-   Les estoy dando una oportunidad que en MUCHAS instituciones NO existiría
 
-Formato perfecto, 0 errores, documento profesional
+En el contexto profesional de ingeniería:
 
-Procedimiento
+-   Un ingeniero que falsifica datos técnicos causa ACCIDENTES
+-   Puentes que colapsan
+-   Máquinas que explotan
+-   Lotes de medicamentos contaminados
+-   MUERTES de personas inocentes
+-   PRISIÓN para el ingeniero responsable
 
-2.1
+**No estoy exagerando. Busquen en Google:**
 
-Descripción detallada con múltiples referencias verificables
+-   "Ingeniero prisión falsificar datos"
+-   "Colapso puente responsabilidad ingeniero"
+-   "Fraude científico consecuencias"
 
-Procesos
+### **B. ¿POR QUÉ ES TAN GRAVE?**
 
-1.4
+**Pregunta:** "Profesor, solo fueron dos referencias... ¿no está exagerando?"
 
-4+ procesos industriales reales con estudios de caso citados
+**Respuesta:** NO. Y les explico por qué con un ejemplo:
 
-Conclusiones
+**Imaginen que son médicos:**
 
-1.4
+-   Deben recetar un medicamento a un paciente
+-   El medicamento correcto requiere: "50mg cada 8 horas"
+-   Ustedes no investigan y copian de un ejemplo: "500mg cada 2 horas"
+-   **Resultado:** El paciente MUERE por sobredosis
 
-Análisis profundo que integra múltiples fuentes
+**¿Su defensa sería?: "Solo fue una receta... ¿no está exagerando, juez?"**
 
-Bibliografía
+**En su caso:**
 
-1.4
+-   Debían investigar referencias REALES para respaldar sus afirmaciones técnicas
+-   Copiaron referencias FALSAS de un ejemplo
+-   Presentaron como real información que era FICTICIAS
+-   **Resultado:** Fraude académico
 
-Mínimo 5 referencias académicas REALES, formato APA perfecto
+**¿Cuál es la diferencia?**
 
-**TOTAL**
+-   En medicina, la consecuencia es inmediata y visible (muerte)
+-   En ingeniería académica, la consecuencia es educativa (no aprenden, no desarrollan integridad)
+-   PERO en ingeniería profesional, la consecuencia TAMBIÉN puede ser muerte
 
-**7.0**
+### **C. LA PREGUNTA QUE DEBEN RESPONDER:**
 
-**Nota:** Para obtener 7.0/7.0 necesitan trabajo de **EXCELENCIA ABSOLUTA**.
+**¿Qué tipo de ingeniero quieren ser?**
+
+**Opción A: El Ingeniero Íntegro**
+
+-   Verifica TODO antes de afirmar algo
+-   Reconoce cuando no sabe y pregunta
+-   Investiga a fondo cada decisión técnica
+-   Asume responsabilidad por su trabajo
+-   **Calificación en esta actividad:** Máximo 5.8/10
+-   **Reputación profesional:** SÓLIDA
+-   **Puede dormir tranquilo por las noches:** SÍ
+
+**Opción B: El Ingeniero Fraudulento**
+
+-   Copia información sin verificar
+-   Presenta como real lo que no investigó
+-   Toma atajos en lugar de hacer las cosas bien
+-   Culpa a otros cuando algo sale mal
+-   **Calificación en esta actividad:** Hubiera podido ser 8-9/10 (si no los hubieran descubierto)
+-   **Reputación profesional:** DESTRUIDA (cuando eventualmente los descubren)
+-   **Puede dormir tranquilo por las noches:** NO
+
+### **D. LECCIÓN FUNDAMENTAL:**
+
+**INTEGRIDAD NO ES NEGOCIABLE**
+
+En esta clase están aprendiendo dos cosas:
+
+**1. Contenido técnico:** Cómo funcionan sensores de pH, humedad, viscosidad, etc.
+
+-   Esto lo pueden olvidar y buscar en internet después
+
+**2. Integridad profesional:** La importancia de ser HONESTO y VERIFICAR información
+
+-   Esto NO lo pueden buscar en internet
+-   O lo aprenden ahora o NUNCA lo aprenderán
+-   **Y un ingeniero sin integridad es un PELIGRO para la sociedad**
+
+**Pregunta de reflexión:**
+
+-   ¿Preferirían obtener un 10 basado en MENTIRAS que los perseguirá siempre?
+-   ¿O un 5.8 basado en VERDAD que pueden defender con orgullo?
+
+### **E. EL MENSAJE QUE DEBEN ENTENDER:**
+
+**Les estoy dando una segunda oportunidad que NO merecen.**
+
+¿Por qué? Porque:
+
+1.  Son estudiantes y todavía están aprendiendo
+2.  Quiero creer que pueden aprender de esto
+3.  Prefiero que aprendan ahora (con consecuencias educativas) que después (con consecuencias legales)
+
+**PERO:**
+
+Esta es su **ÚNICA** oportunidad. NO habrá una tercera.
+
+**Las reglas son:**
+
+-   Primera falta (fraude académico): Calificación baja + recuperación posible
+-   **Segunda falta (cualquier deshonestidad): EXPULSIÓN INMEDIATA**
+
+### **F. REFLEXIÓN FINAL:**
+
+**Tienen 7 días para demostrar:**
+
+1.  ✅ Que pueden hacer investigación REAL
+2.  ✅ Que pueden verificar fuentes
+3.  ✅ Que pueden redactar contenido original
+4.  ✅ Que aprendieron la lección
+5.  ✅ Que merecen ser ingenieros profesionales
+
+**O pueden:**
+
+❌ No hacer nada y reprobar definitivamente con 3.0 ❌ Hacer un trabajo mediocre y reprobar con 4.4 ❌ Intentar copiar de nuevo y ser expulsados
+
+**La decisión es 100% suya.**
+
+**Yo hice mi parte: Les enseñé, les advertí, les di instrucciones claras, les proporcioné recursos.**
+
+**Ahora ustedes deben hacer su parte: Investigar, aprender, crecer, y demostrar INTEGRIDAD.**
 
 ----------
 
-## ⚠️ **ADVERTENCIA FINAL Y CONSECUENCIAS DE NO CUMPLIR**
+## 📧 **11. PRÓXIMOS PASOS INMEDIATOS**
 
-### **Si NO asisten a la reunión presencial:**
+### **DENTRO DE 24 HORAS:**
 
--   🚨 Calificación **0.0/10** automática (sin posibilidad de recuperación)
--   🚨 Reporte formal al Coordinador Académico
--   🚨 Posible suspensión temporal
+1.  ✅ Recibirán email formal de citatorio con fecha, hora y lugar de reunión
+2.  ✅ Confirmar asistencia respondiendo al email
+3.  ✅ Prepararse mentalmente para una conversación seria
 
-### **Si NO entregan la Actividad 8-B:**
+### **EN LA REUNIÓN PRESENCIAL:**
 
--   🚨 Calificación final = **0.9/10** (reprobarían la actividad)
--   🚨 Afectaría severamente su promedio general
--   🚨 Registro permanente de incumplimiento
+1.  ✅ Escuchar atentamente la presentación de evidencia
+2.  ✅ Explicar (sin excusas) qué pasó
+3.  ✅ Firmar la Carta de Compromiso de Integridad Académica
+4.  ✅ Recibir los lineamientos oficiales de Actividad 8-B
+5.  ✅ Aclarar dudas sobre el proceso de recuperación
 
-### **Si la Actividad 8-B contiene plagio o referencias falsas:**
+### **DESPUÉS DE LA REUNIÓN:**
 
--   🚨 Calificación **0.0/10** en recuperación
--   🚨 Calificación final = **0.9/10**
--   🚨 Reporte formal de **REINCIDENCIA** en fraude
--   🚨 Proceso disciplinario formal con posible **EXPULSIÓN**
-
-----------
-
-## 💬 **REFLEXIÓN FINAL - MENSAJE PERSONAL**
-
-**Eymi, Juan, Mayra y Ernesto:**
-
-Sé que esto es difícil de leer. Probablemente están sintiendo una mezcla de emociones: vergüenza, enojo, miedo, negación. Eso es normal.
-
-Pero necesito que entiendan algo fundamental:
-
-### **No los estoy castigando para hacerles daño.**
-
-Les estoy enseñando **la lección más importante** que aprenderán en toda su carrera:
-
-> **La integridad profesional es lo ÚNICO que tienen.**
-
-En el mundo laboral:
-
--   ✅ Las habilidades técnicas se pueden aprender
--   ✅ La experiencia se adquiere con tiempo
--   ✅ Los conocimientos se actualizan
--   ❌ **La reputación perdida es IRRECUPERABLE**
-
-### **Historia Real:**
-
-Hace 5 años, un estudiante (llamémoslo "Roberto") estaba en situación similar a la de ustedes. Copió referencias, entregó trabajo falso, obtuvo 3.0.
-
-**Tuvo dos opciones:**
-
-**Opción A:** Enojarse, quejarse, no hacer la recuperación
-
--   Resultado: Reprobó la materia, se retrasó un semestre, su promedio bajó, perdió una beca
-
-**Opción B:** Aceptar el error, hacer la recuperación con HONESTIDAD
-
--   Resultado: Obtuvo 5.8, aprendió la lección, nunca volvió a copiar
-
-**¿Adivinen qué pasó 3 años después?**
-
-"Roberto" (Opción B) está trabajando en una empresa automotriz internacional. En su primera semana de trabajo, su jefe le pidió un reporte técnico.
-
-**Su jefe le dijo:**
-
-> "Roberto, no me importa si el reporte dice que cometimos errores. No me importa si las noticias son malas. Solo me importa que CADA dato en este reporte sea REAL y VERIFICABLE. ¿Puedo confiar en tu trabajo?"
-
-**Roberto respondió:**
-
-> "Sí señor. Aprendí esa lección de la manera difícil en la universidad."
-
-**Hoy Roberto es supervisor de calidad.** Su trabajo es verificar que NADIE falsifique datos.
-
-### **La pregunta para ustedes es:**
-
-**¿Quieren ser el tipo de ingeniero en cuyo trabajo la gente PUEDE confiar?**
-
-**¿O quieren ser el tipo de ingeniero que tiene que recordar qué mintió y dónde?**
+1.  ✅ Comenzar INMEDIATAMENTE la investigación (NO dejar para el último día)
+2.  ✅ Día 4: Enviar lista de referencias para validación
+3.  ✅ Día 7: Entregar Actividad 8-B completa con toda la documentación
+4.  ✅ Esperar evaluación (48-72 horas después)
+5.  ✅ Recibir calificación final
 
 ----------
 
-### **Este NO es el fin de su carrera académica.**
+## 🎓 **12. MENSAJE FINAL DEL PROFESOR**
 
-Pero **SÍ** es un punto de inflexión.
+Jorge, Edgar y Rosa:
 
-**Tienen dos caminos:**
+Esta es, sin duda, la retroalimentación más difícil que he tenido que escribir en mi carrera docente.
 
-**🔴 CAMINO 1: El Atajo (Fácil ahora, terrible después)**
+**Duele descubrir que estudiantes a quienes estoy enseñando eligieron el camino del fraude.**
 
--   No hacer la recuperación
--   Seguir copiando en otras materias
--   Graduarse con promedio inflado pero vacío de conocimiento real
--   Conseguir trabajo
--   **Primer proyecto importante:** No saber qué hacer
--   **Consecuencia:** Despido, reputación destruida, años perdidos
+Pero también tengo esperanza.
 
-**🟢 CAMINO 2: La Integridad (Difícil ahora, gratificante después)**
+Esperanza de que:
 
--   Aceptar el error con humildad
--   Hacer la recuperación CON ESFUERZO REAL
--   Aprobar con 5.8 HONESTO
--   Aprender la lección para SIEMPRE
--   **Graduarse sabiendo:** "Cada calificación la gané de verdad"
--   **Primer trabajo:** Confianza en sus habilidades
--   **Consecuencia:** Carrera sólida, reputación intachable
+-   Entiendan la gravedad de lo que hicieron
+-   Aprendan que la integridad es MÁS importante que una calificación
+-   Aprovechen esta segunda oportunidad para demostrar su verdadero potencial
+-   Se conviertan en ingenieros en quienes la sociedad PUEDA confiar
 
-----------
+**Tienen talento.** Lo sé porque están estudiando ingeniería y llegaron hasta aquí.
 
-### **Mi compromiso con ustedes:**
+**Tienen capacidad.** Lo sé porque los demás equipos sí lograron hacer investigación real.
 
-Si eligen el Camino 2:
+**Lo único que les faltó fue INTEGRIDAD y ESFUERZO GENUINO.**
 
--   ✅ Los apoyaré en cada paso de la recuperación
--   ✅ Responderé sus dudas en menos de 24 horas
--   ✅ Validaré sus referencias para que estén seguros
--   ✅ Reconoceré públicamente su honestidad si hacen buen trabajo
--   ✅ Esta lección quedará como un punto de crecimiento, no como una mancha
+Y eso SÍ se puede aprender y desarrollar.
 
-Si eligen el Camino 1:
+**Los próximos 7 días definirán:**
 
--   ❌ La calificación queda como está
--   ❌ El registro permanece
--   ❌ No habrá más oportunidades
+-   Si esta fue una "mala decisión" que corrigieron
+-   O si es el comienzo de un patrón de deshonestidad que los perseguirá toda la vida
+
+**La decisión es suya.**
+
+**Yo confío en que elegirán el camino correcto.**
+
+**Pero si no lo hacen, estaré cumpliendo con mi deber como profesor: Reprobarlos y reportarlos.**
+
+**Porque formar ingenieros sin integridad sería una falta de responsabilidad de mi parte hacia la sociedad.**
+
+**Nos vemos en la reunión.**
 
 ----------
 
-## 📞 **INFORMACIÓN DE CONTACTO**
-
-Para cualquier duda sobre este proceso:
-
-**📧 Email:** fausto.jimenez@sabes.edu.mx **⏰ Horario de atención:** Lunes a Viernes, 9:00 AM - 3:00 PM **📱 Respuesta estimada:** Menos de 24 horas
-
-**Para la reunión presencial:** **📅 Fecha:** Lunes 18 de noviembre de 2025 **🕐 Hora:** 10:00 AM **📍 Lugar:** Aula B3
+**Prof. Fausto Noe Jiménez** Metrología e Instrumentación Universidad SABES - Campus San Felipe Email: [tu email] Fecha: 14 de noviembre de 2025
 
 ----------
 
-## ✅ **PRÓXIMOS PASOS - CHECKLIST**
-
--   [ ] **PASO 1:** Leer completamente esta retroalimentación (ustedes están aquí)
--   [ ] **PASO 2:** Reflexionar sobre lo sucedido (esta noche)
--   [ ] **PASO 3:** Confirmar asistencia a reunión (responder este email antes del viernes)
--   [ ] **PASO 4:** Asistir a reunión presencial (lunes 10:00 AM)
--   [ ] **PASO 5:** Firmar carta de compromiso (en la reunión)
--   [ ] **PASO 6:** Comenzar investigación REAL (después de la reunión)
--   [ ] **PASO 7:** Enviar lista de referencias para validación (día 4)
--   [ ] **PASO 8:** Recibir aprobación de referencias (día 5)
--   [ ] **PASO 9:** Completar trabajo de recuperación (día 7)
--   [ ] **PASO 10:** Entregar Actividad 8-B con anexos (día 7, antes de 11:59 PM)
+**P.D.:** Esta retroalimentación será parte permanente de su expediente académico. Léanla completa y reléanla. Compártanla con su familia si lo consideran necesario. Lo que decidieron hacer fue grave, pero todavía tienen oportunidad de enmendarlo. No la desperdicien.
 
 ----------
 
-## 🎯 **CIERRE**
-
-**Eymi, Juan, Mayra y Ernesto:**
-
-Este es uno de los emails más difíciles que he escrito como profesor. No disfruto tener que confrontar a mis estudiantes con sus errores.
-
-Pero mi responsabilidad NO es solo enseñarles ingeniería.
-
-**Mi responsabilidad es prepararlos para ser PROFESIONALES ÍNTEGROS.**
-
-Y parte de eso es enseñarles que:
-
--   ✅ Los errores tienen **consecuencias**
--   ✅ La deshonestidad es **inaceptable**
--   ✅ La integridad es **no negociable**
--   ✅ Pero también: Las personas pueden **aprender y cambiar**
-
-Tienen **7 días** para demostrar que eligieron el camino correcto.
-
-**La decisión es suya. Las consecuencias también.**
-
-Pero **yo estaré aquí para apoyarlos** si eligen hacer lo correcto.
-
-----------
-
-**Prof. Fausto Noe Jiménez** Ingeniería Industrial Universidad SABES - Campus San Felipe Metrología e Instrumentación
-
-----------
-
-**P.D.:** Por favor confirmen recepción de este email respondiendo con:
-
--   Confirmación de lectura
--   Confirmación de asistencia a reunión del lunes
--   Cualquier duda inicial que tengan
-
-**No están solos en esto. Pero deben dar el primer paso.**
-
-----------
-
-**"La integridad es hacer lo correcto incluso cuando nadie está mirando."** — C.S. Lewis
+**🔐 CONFIDENCIALIDAD:** Esta retroalimentación es personal y confidencial. Solo debe ser compartida con los integrantes del equipo y, si lo desean, con sus familias o tutores. NO debe ser compartida públicamente ni con otros estudiantes.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzk4NDg5NzA5LDQ1NzUyNDA1MSwtMTU2Nj
-Q4NTU5NF19
+eyJoaXN0b3J5IjpbLTUxNTAwMzA3Niw3OTg0ODk3MDksNDU3NT
+I0MDUxLC0xNTY2NDg1NTk0XX0=
 -->
