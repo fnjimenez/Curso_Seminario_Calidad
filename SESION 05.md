@@ -1,5 +1,8 @@
 <h1 id="seminario-de-calidad-—-contenido-temático-de-la-sesión-5-semana-5">Seminario de Calidad — Contenido temático de la Sesión 5 (Semana 5)</h1>
-<p><strong>Tema:</strong> Unidad II, tema 2.4: Integración del marco teórico y conceptual <strong>Fecha:</strong> 6 al 13 de octubre de 2026 (sesión presencial: sábado 10 de octubre) <strong>Asesoría de la sesión:</strong> Cómo construir el marco teórico conceptual <strong>Propósito de la sesión:</strong> Que el estudiante comprenda qué es y qué no es el marco teórico conceptual, aprenda a construirlo a partir de la literatura que ya recolectó (fichas y colección de Zotero) y deje avanzado el borrador que entregará en la <strong>Actividad 4 (segundo avance, 15 puntos, vence el 20 de octubre)</strong>.</p>
+<p><strong>Tema:</strong> Unidad II, tema 2.4: Integración del marco teórico y conceptual<br>
+<strong>Fecha:</strong> 6 al 13 de octubre de 2026 (sesión presencial: sábado 10 de octubre)<br>
+<strong>Asesoría de la sesión:</strong> Cómo construir el marco teórico conceptual<br>
+<strong>Propósito de la sesión:</strong> Que el estudiante comprenda qué es y qué no es el marco teórico conceptual, aprenda a construirlo a partir de la literatura que ya recolectó (fichas y colección de Zotero) y deje avanzado el borrador que entregará en la <strong>Actividad 4 (segundo avance, 15 puntos, vence el 20 de octubre)</strong>.</p>
 <blockquote>
 <p>Nota de uso: como <strong>ejemplo</strong> se retoma el Proyecto 1 del Bloque A (listado oficial de títulos del curso): <strong>“Six Sigma aplicado a centros de distribución y almacenes”</strong> (Esmeralda Acosta Rivera, Ingeniería en Logística), el mismo de la Sesión 4. Los ejemplos de estructura y redacción son <strong>ilustrativos con fines didácticos</strong>: las citas aparecen como <code>[CITA]</code> porque deben salir de las fuentes que cada estudiante realmente leyó; no se inventan autores ni datos. Si tu tema es otro (cualquiera de los 22 del Bloque A o del Bloque B de TI/Arquitectura de la Información), el procedimiento es el mismo.</p>
 </blockquote>
@@ -8,19 +11,63 @@
 </blockquote>
 <hr>
 <h2 id="índice">Índice</h2>
+<ul>
+<li>
 <ol start="0">
 <li>Definiciones conceptuales clave</li>
+</ol>
+</li>
+<li>
+<ol>
 <li>Qué pide el documento oficial para el marco teórico conceptual</li>
+</ol>
+</li>
+<li>
+<ol start="2">
 <li>Del planteamiento al marco teórico: de dónde sale cada apartado</li>
+</ol>
+</li>
+<li>
+<ol start="3">
 <li>Procedimiento paso a paso para construirlo</li>
+</ol>
+</li>
+<li>
+<ol start="4">
 <li>Matriz de síntesis: herramienta para ordenar la literatura</li>
+</ol>
+</li>
+<li>
+<ol start="5">
 <li>Citar y parafrasear correctamente (APA 7), con ejemplos de redacción</li>
+</ol>
+</li>
+<li>
+<ol start="6">
 <li>Ejemplo de estructura y redacción (Proyecto 1), con seis modelos de párrafo</li>
+</ol>
+</li>
+<li>
+<ol start="7">
 <li>Errores comunes a evitar</li>
+</ol>
+</li>
+<li>
+<ol start="8">
 <li>Ejercicio integrador de la sesión</li>
+</ol>
+</li>
+<li>
+<ol start="9">
 <li>Cierre y checklist de la Actividad 4</li>
+</ol>
+</li>
+<li>
+<ol start="10">
 <li>Referencias (formato APA)</li>
 </ol>
+</li>
+</ul>
 <hr>
 <h2 id="definiciones-conceptuales-clave">0. Definiciones conceptuales clave</h2>
 <p><strong>Marco teórico conceptual.</strong> Según el documento oficial de la actividad, consiste en describir brevemente las teorías, enfoques teóricos o postulados que sustentan el abordaje y/o la construcción del objeto de estudio y de toda la investigación en general, y describir los conceptos que permiten comprender el tema de investigación. En otras palabras: es la base de ideas ya publicadas sobre la que se apoya tu protocolo.</p>
@@ -281,7 +328,12 @@
 <h2 id="ejemplo-de-estructura-y-redacción-proyecto-1-con-seis-modelos-de-párrafo">6. Ejemplo de estructura y redacción (Proyecto 1), con seis modelos de párrafo</h2>
 <h3 id="esquema-ilustrativo-del-marco-teórico-conceptual">6.1 Esquema ilustrativo del marco teórico conceptual</h3>
 <blockquote>
-<p><strong>Marco teórico conceptual</strong> 2.1 Six Sigma y el ciclo DMAIC (concepto, origen y fases) 2.2 Centros de distribución y almacenes (concepto y características de su operación) 2.3 Adaptación de Six Sigma a operaciones logísticas 2.4 Indicadores de desempeño en almacenes 2.5 Antecedentes: estudios previos relevantes</p>
+<p><strong>Marco teórico conceptual</strong><br>
+2.1 Six Sigma y el ciclo DMAIC (concepto, origen y fases)<br>
+2.2 Centros de distribución y almacenes (concepto y características de su operación)<br>
+2.3 Adaptación de Six Sigma a operaciones logísticas<br>
+2.4 Indicadores de desempeño en almacenes<br>
+2.5 Antecedentes: estudios previos relevantes</p>
 </blockquote>
 <p>(El número de apartados depende de tus objetivos; este esquema es un modelo, no una plantilla obligatoria.)</p>
 <h3 id="fragmento-ilustrativo-de-redacción-con-marcadores-de-cita">6.2 Fragmento ilustrativo de redacción (con marcadores de cita)</h3>
